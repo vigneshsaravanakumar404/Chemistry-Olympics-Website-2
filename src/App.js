@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './pages/Layout.js';
+import Home from './pages/Home.js';
+import Solar from './pages/Solar.js';
+import Bio from './pages/Bio.js';
+import Geothermal from './pages/Geothermal.js';
+import Map from './pages/Map.js';
+import Error from './pages/Error.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+          <Route index element={<Home/>}/>
+          <Route path='solar' element={<Solar/>}/>
+          <Route path='bio' element={<Bio/>}/>
+          <Route path='geothermal' element={<Geothermal/>}/>
+          <Route path='map' element={<Map/>}/>
+          <Route path='*' element={<Error/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
