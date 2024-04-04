@@ -4,7 +4,7 @@ function Home() {
     return(
         <div>
             <p>This is the Home Page.</p>
-            <P>By: Tejas Raghuram, Vignesh Saravanakumar, Ishaan Sinha</P>
+            <p>By: Tejas Raghuram, Vignesh Saravanakumar, Ishaan Sinha</p>
         </div>
     );
 }
