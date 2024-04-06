@@ -1,0 +1,21 @@
+#layout-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url('./../images/grid.svg');
+    background-size: 25px;
+    animation-name: background-animation;
+    animation-duration: 1s;
+    z-index: -1;
+}
+
+@keyframes background-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
