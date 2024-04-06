@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     color: white;
 }
 
 body {
     background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Philosopher';
+}
+
+p {
+    font-family: 'DM Sans';
 }
