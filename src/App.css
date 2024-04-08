@@ -6,6 +6,8 @@
 
 body {
     background-color: black;
+    background-image: url('./images/grid.svg');
+    background-size: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {

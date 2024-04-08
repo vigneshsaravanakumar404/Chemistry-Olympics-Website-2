@@ -110,7 +110,9 @@ function Layout() {
             <div id='layout-background' />
             { mobile ? <Dropdown/> : <Navbar/> }
             <Outlet/>
-            <p>This is the Footer.</p>
+            <div id='layout-footer-divider'/>
+            <p class='layout-footer'>Designed and Developed by Ishaan Sinha, Tejas Raghuram, and Vignesh Saravanakumar</p>
+            <p class='layout-footer'>South Brunswick High School Team A, 2024</p>
         </div>
     );
 }
