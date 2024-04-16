@@ -1,20 +1,18 @@
 #citations-header {
-    margin-top: 125px;
-    margin-bottom: 0;
-    font-size: 64px;
-    text-align: center;
+  margin-top: 125px;
+  margin-bottom: 0;
+  font-size: 64px;
+  text-align: center;
 }
 
 .citations-body {
-    margin-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (max-width: 768px) {
-
-    #citations-header {
-        font-size: 48px;
-    }
-
+  #citations-header {
+    font-size: 48px;
+  }
 }
