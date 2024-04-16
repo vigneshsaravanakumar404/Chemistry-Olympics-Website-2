@@ -129,6 +129,7 @@
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
   }
@@ -138,6 +139,7 @@
   from {
     top: -100px;
   }
+
   to {
     opacity: 15px;
   }

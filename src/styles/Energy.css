@@ -1,7 +1,4 @@
-p {
-    margin-top: 75px;
-}
-
+/* Hero Stuff */
 .solar-hero-banner {
     background-image: url('https://wallpapers.com/images/hd/solar-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
     background-size: cover;
@@ -30,10 +27,53 @@ p {
 }
 
 .hero-banner h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .hero-banner p {
     font-size: 1.5rem;
     margin-top: 20px;
+}
+
+.benefits-section {
+    padding: 20px;
+}
+
+
+/* Benefits Section */
+.benefits-section {
+    padding: 40px;
+}
+
+.benefits-h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.benefits-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 calc(30% - 20px);
+    background-color: #252525;
+    /* Dark background color */
+    color: #fff;
+    /* Text color */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.benefits-h3 {
+    font-size: 1.8rem;
+    color: #00BA66;
+    /* Accent color */
+}
+
+.benefits-paragraph {
+    font-size: 1.4rem;
+    margin-top: 10px;
 }

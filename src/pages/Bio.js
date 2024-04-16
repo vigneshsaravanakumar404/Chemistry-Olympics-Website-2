@@ -1,9 +1,20 @@
-import "./../styles/Bio.css";
+import "./../styles/Energy.css";
+import { ReactTyped } from "react-typed";
 
 function Bio() {
   return (
     <div>
-      <p>This is the Bio Page.</p>
+      <div className="bio-hero-banner">
+        <h1>
+          <ReactTyped
+            className="react-typed"
+            strings={["Bio Energy"]}
+            typeSpeed={50}
+            loop={false}
+            showCursor={true}
+          />
+        </h1>
+      </div>
     </div>
   );
 }
