@@ -1,9 +1,13 @@
-import "./../styles/Solar.css";
+import React from 'react';
+import "./../styles/Energy.css";
 
 function Solar() {
   return (
     <div>
-      <p>This is the Solar Page.</p>
+      <div className="solar-hero-banner">
+        <h1>Solar Energy</h1>
+        <p>Energy harnessed directly from the sun</p>
+      </div>
     </div>
   );
 }

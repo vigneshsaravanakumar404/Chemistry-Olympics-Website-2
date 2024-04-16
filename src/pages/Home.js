@@ -1,4 +1,10 @@
+// Link: https://xwm4d7nn-3000.use.devtunnels.ms/
+
 import { ReactTyped } from "react-typed";
+import { Link } from "react-router-dom";
+import SolarImage from "./../images/Solar.png";
+import BioImage from "./../images/Bio.png";
+import GeothermalImage from "./../images/Geothemral.png";
 import "./../styles/Home.css";
 
 function Home() {
@@ -14,6 +20,9 @@ function Home() {
       </h1>
       <div id="home-hero-background" />
       <div id="home-content">
+        <div id="home-carousel">
+          <div class="home-carousel-card"></div>
+        </div>
         <h1 class="home-header">Some Statistics</h1>
         <p class="home-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus erat
@@ -49,32 +58,26 @@ function Home() {
         </p>
         <div id="home-graph" />
         <h1 class="home-header">Energy Comes in Many Forms</h1>
-        <p></p>
+        <br />
 
+        {/*TODO: CHANGE IMAGES TO FIT WITH WEBSITE THEME */}
+        {/*TODO: Fix for small devices */}
         <div class="energy-container">
-          <img
-            src="https://i.pinimg.com/originals/69/34/25/6934254c5c77fac61fa1150c080701f3.png"
-            alt="Solar Energy"
-            class="energy-image"
-          ></img>
+          <img src={SolarImage} alt="Solar Energy" class="energy-image"></img>
           <div class="energy-details">
             <h2 class="energy-title">Solar Energy</h2>
             <p class="energy-description">
               Solar energy is renewable energy derived from the sun's rays. It
               is a clean and sustainable source of power.
             </p>
-            <a href="/solar" class="energy-button">
+            <Link to="/solar" class="energy-button">
               Solar
-            </a>
+            </Link>
           </div>
         </div>
 
         <div class="energy-container">
-          <img
-            src="https://think.ing.com/uploads/hero/_w800h450/170521-image-bio_energy_with_caption.jpg"
-            alt="Bio Energy"
-            class="energy-image"
-          ></img>
+          <img src={BioImage} alt="Bio Energy" class="energy-image" />
           <div class="energy-details">
             <h2 class="energy-title">Bio Energy</h2>
             <p class="energy-description">
@@ -82,30 +85,30 @@ function Home() {
               plants and animal waste. It is a versatile and renewable energy
               source.
             </p>
-            <a href="/bio" class="energy-button">
+            <Link to="/bio" class="energy-button">
               Bio
-            </a>
+            </Link>
           </div>
         </div>
 
         <div class="energy-container">
           <img
-            src="https://energytransition.org/wp-content/uploads/2023/03/Krafla_geothermal_power_station_wiki.jpg"
+            src={GeothermalImage}
             alt="Geothermal Energy"
             class="energy-image"
-          ></img>
+          />
           <div class="energy-details">
             <h2 class="energy-title">Geothermal Energy</h2>
             <p class="energy-description">
               Geothermal energy is heat derived from the Earth's core. It is a
               sustainable and reliable source of power.
             </p>
-            <a href="/geothermal" class="energy-button">
+            <Link to="/geothermal" class="energy-button">
               Geothermal
-            </a>
+            </Link>
           </div>
         </div>
-        <p> </p>
+        <br />
       </div>
     </div>
   );

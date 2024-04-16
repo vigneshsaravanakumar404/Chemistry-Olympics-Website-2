@@ -1,5 +1,6 @@
 #home-title {
   width: 42.5vw;
+  height: 20vw;
   margin-left: 10vw;
   margin-top: calc(50vh - 10vw);
   font-size: 10vw;
@@ -20,6 +21,15 @@
 
 #home-content {
   margin-top: calc(50vh - 10vw);
+}
+
+#home-carousel {
+
+}
+
+#home-carousel-card {
+  width: 20vw;
+  height: 500px;
 }
 
 .home-text {
@@ -51,6 +61,7 @@
 @media (max-width: 768px) {
   #home-title {
     width: 275px;
+    height: 128px;
     margin-left: calc(((100% - 340px) / 7) + 20px);
     margin-top: calc(50vh - 64px);
     font-size: 64px;

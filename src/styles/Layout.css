@@ -14,7 +14,7 @@
 #layout-navbar {
   width: 755px;
   height: 60px;
-  margin-left: calc(50% - 379.5px);
+  margin-left: calc(50vw - 379.5px);
   position: fixed;
   top: 15px;
   border-radius: 10px;
