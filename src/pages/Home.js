@@ -1,5 +1,3 @@
-// Link: https://xwm4d7nn-3000.use.devtunnels.ms/
-
 import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import SolarImage from "./../images/Solar.png";
