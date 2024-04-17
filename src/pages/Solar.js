@@ -10,6 +10,36 @@ const HeroBanner = () => {
   );
 };
 
+const WhatIsSolarEnergy = () => {
+  return (
+    <div className="what-is-solar-energy-container">
+      <div className="what-is-solar-energy-text">
+        <h2 className="what-is-solar-energy-h2">What is Solar Energy?</h2>
+        <p className="what-is-solar-energy-paragraph">
+          Solar energy is radiant light and heat from the Sun that is harnessed
+          using a range of ever-evolving technologies such as solar heating,
+          photovoltaics, solar thermal energy, solar architecture, molten salt
+          power plants and artificial photosynthesis. Solar energy is radiant
+          light and heat from the Sun that is harnessed using a range of
+          ever-evolving technologies such as solar heating, photovoltaics, solar
+          thermal energy, solar architecture, molten salt power plants and
+          artificial photosynthesis.Solar energy is radiant light and heat from
+          the Sun that is harnessed using a range of ever-evolving technologies
+          such as solar heating, photovoltaics, solar thermal energy, solar
+          architecture, molten salt power plants and artificial photosynthesis.
+        </p>
+      </div>
+      <div className="what-is-solar-energy-image">
+        {/* Replace 'image-url.jpg' with the URL of your large image */}
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3558/3558016.png"
+          alt="Solar Energy"
+        />
+      </div>
+    </div>
+  );
+};
+
 const LimitationsAndShortcomings = () => {
   return (
     <div className="limitations-section">
@@ -91,10 +121,9 @@ const Benefits = () => {
 function Solar() {
   return (
     <div>
-      <div className="limitations-section"></div>
-      <HeroBanner />
+      <WhatIsSolarEnergy />
       <Benefits />
-      <LimitationsAndShortcomings />
+      {/* <LimitationsAndShortcomings /> */}
     </div>
   );
 }

@@ -5,8 +5,8 @@
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
     font-size: 2.25rem;
+    padding: 100px 20px;
 }
 
 
@@ -14,6 +14,39 @@
     font-size: 1.5rem;
     margin-top: 20px;
 }
+
+/* What is Solar */
+.what-is-solar-energy-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-is-solar-energy-text {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.what-is-solar-energy-image {
+    flex: 0.5;
+    padding: 10px;
+}
+
+.what-is-solar-energy-image img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    transform: rotate(10deg);
+}
+
+.what-is-solar-energy-h2 {
+    color: #F3D03E;
+    padding: 10px;
+    font-size: 5rem;
+}
+
 
 /* Benfits */
 .benefits-section {
@@ -24,7 +57,7 @@
 }
 
 .benefits-h2 {
-    color: #F3D03E;
+    color: #618BAA;
     padding: 10px;
     font-size: 2rem;
 }
