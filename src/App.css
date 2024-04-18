@@ -5,12 +5,12 @@
 }
 
 body {
-  width: 100vw;
   background-color: black;
   background-image: url("./images/grid.svg");
   background-size: 25px;
-  overflow-x: hidden;
+  overflow: auto;
 }
+
 
 h1,
 h2,
