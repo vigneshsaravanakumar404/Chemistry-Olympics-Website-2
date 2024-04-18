@@ -1,18 +1,3 @@
-/* Hero Stuff */
-.solar-hero-banner {
-    background-image: url('https://wallpapers.com/images/hd/solar-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    font-size: 2.25rem;
-}
-
-
-.hero-banner p {
-    font-size: 1.5rem;
-}
-
 /* What is Solar */
 .what-is-solar-energy-container {
     display: flex;
@@ -45,24 +30,24 @@
 
 
 /* Benfits */
-.benefits-section {
+.benefits-section-solar {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
 }
 
-.benefits-h2 {
+.benefits-h2-solar {
     color: #618BAA;
     font-size: 3rem;
 }
 
-.benefits-paragraph {
+.benefits-paragraph-solar {
     color: #ccc;
     font-size: 1rem;
 }
 
-.benefits-cards-container {
+.benefits-cards-container-solar {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -70,70 +55,69 @@
     margin-top: 20px;
 }
 
-.benefits-card {
+.benefits-card-solar {
     background-color: #333;
     border: 2px solid #ffdb4d;
-    /* Solar energy yellow */
     border-radius: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 25px;
     flex: 1 1 calc(40% - 40px);
 }
 
-.card-inner {
+.card-inner-solar {
     display: flex;
 }
 
-.card-image {
+.card-image-solar {
     flex: 1;
 }
 
-.card-image img {
+.card-image-solar img {
     width: 100%;
     height: auto;
 }
 
-.card-content {
+.card-content-solar {
     flex: 1;
     padding-left: 20px;
     /* Add padding to separate image and content */
 }
 
-.benefits-h3 {
+.benefits-h3-solar {
     color: #ffdb4d;
 }
 
-.benefits-paragraph {
+.benefits-paragraph-solar {
     color: #ccc;
 }
 
 @media (max-width: 768px) {
-    .benefits-card {
+    .benefits-card-solar {
         flex-basis: calc(50% - 40px);
         /* 2 cards per row on smaller screens */
     }
 }
 
 @media (max-width: 480px) {
-    .benefits-card {
+    .benefits-card-solar {
         flex-basis: calc(100% - 40px);
         /* 1 card per row on mobile screens */
     }
 
     /* Specific styles for one card per row */
-    .benefits-card {
+    .benefits-card-solar {
         flex-direction: column;
         /* Stack content vertically */
     }
 
-    .card-content {
+    .card-content-solar {
         padding-top: 20px;
         /* Add padding to separate image and content */
     }
 }
 
 /* Limitations and Short Comings */
-.container {
+.container-solar {
     display: flex;
     flex-direction: column;
     background-color: #395b80;
@@ -144,11 +128,11 @@
     border-radius: 20px;
 }
 
-.tabs {
+.tabs-solar {
     display: flex;
 }
 
-.tab {
+.tab-solar {
     cursor: pointer;
     padding: 10px 20px;
     margin-right: 10px;
@@ -157,16 +141,16 @@
     /* Darker background for tabs */
 }
 
-.tab.active {
+.tab.active-solar {
     background-color: #FFE177;
     color: #000000;
 }
 
-.limitations-section {
+.limitations-section-solar {
     margin-top: 20px;
 }
 
-.limitation-card {
+.limitation-card-solar .limitation-content-solar {
     display: flex;
     flex-direction: row;
     background-color: #000000;
@@ -177,11 +161,11 @@
     /* Shadow effect */
 }
 
-.limitation-card .limitation-content {
+.limitation-card-solar {
     flex: 1;
 }
 
-.limitation-card img {
+.limitation-card-solar img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
@@ -189,17 +173,17 @@
     /* Add some spacing between image and content */
 }
 
-.limitations-h2 {
+.limitations-h2-solar {
     margin-top: 0;
     margin-left: 20px;
 }
 
-.limitations-paragraph {
+.limitations-paragraph-solar {
     margin-bottom: 0;
     margin-left: 20px;
 }
 
-.limitations-image {
+.limitations-image-solar {
     width: 18%;
     height: auto;
 }
@@ -208,7 +192,7 @@
 
 
 /* How Solar Works */
-.callout-box {
+.callout-box-solar {
     background-color: #5b4924;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -221,39 +205,39 @@
     justify-content: center;
 }
 
-.callout-content {
+.callout-content-solar {
     display: flex;
 }
 
-.text-content {
+.text-content-solar {
     flex: 3;
     /* 3/4 of the width */
     padding-right: 20px;
     /* Adjust spacing between text and image */
 }
 
-.image-content {
+.image-content-solar {
     flex: 1;
 }
 
-.image-style {
+.image-style-solar {
     width: 80%;
     border-radius: 4px;
 }
 
-.callout-title {
+.callout-title-solar {
     font-size: 36px;
     margin-bottom: 10px;
     color: #FFC85E;
 }
 
-.callout-text {
+.callout-text-solar {
     font-size: 18px;
     line-height: 1.6;
     color: #ffffff;
 }
 
-.latex {
+.latex-solar {
     filter: invert(100%);
 }
 

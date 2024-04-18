@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./../styles/Bio.css";
 
-// TODO: ADD ANIMATIONS AND TEXT EFFECTS
-// TODO: CHANGAE IMAGES
 const WhatIsBioEnergy = () => {
   return (
     <div className="what-is-bio-energy-container">
@@ -71,24 +69,23 @@ const Benefits = () => {
   ];
 
   return (
-    // TODO: FIX IMAGES NOT CENTERED IN SMALL DEVICES
-    <div className="benefits-section">
+    <div className="benefits-section-bio">
       <h2 className="benefits-h2">Benefits</h2>
       <p className="benefits-paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
         nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
         nunc nec.
       </p>
-      <div className="benefits-cards-container">
+      <div className="benefits-cards-container-bio">
         {benefitsData.map((benefit, index) => (
-          <div className="benefits-card" key={index}>
-            <div className="card-inner">
-              <div className="card-image">
+          <div className="benefits-card-bio" key={index}>
+            <div className="card-inner-bio">
+              <div className="card-image-bio">
                 <img src={benefit.image} alt={benefit.title} />
               </div>
-              <div className="card-content">
-                <h3 className="benefits-h3">{benefit.title}</h3>
-                <p className="benefits-paragraph">{benefit.description}</p>
+              <div className="card-content-bio">
+                <h3 className="benefits-h3-bio">{benefit.title}</h3>
+                <p className="benefits-paragraph-bio">{benefit.description}</p>
               </div>
             </div>
           </div>
@@ -120,11 +117,10 @@ const LimitationsAndShortcomings = () => {
     // Add more limitations as needed
   ];
 
-  // TODO: FIX COLOR SCHEME
   return (
-    <div className="container">
-      <h1 className="limitations-h1">Limitations and Shortcomings</h1>
-      <div className="tabs">
+    <div className="container-bio">
+      <h1 className="limitations-h1-bio">Limitations and Shortcomings</h1>
+      <div className="tabs-bio">
         {tabs.map((tab, index) => (
           <div
             key={index}
@@ -135,16 +131,18 @@ const LimitationsAndShortcomings = () => {
           </div>
         ))}
       </div>
-      <div className="limitations-section">
-        <div className="limitation-card">
+      <div className="limitations-section-bio">
+        <div className="limitation-card-bio">
           <img
-            className="limitations-image"
+            className="limitations-image-bio"
             src={tabs[selectedTab].image}
             alt={tabs[selectedTab].title}
           />
-          <div className="limitation-content">
-            <h2 className="limitations-h2">{tabs[selectedTab].title}</h2>
-            <p className="limitations-paragraph">{tabs[selectedTab].text}</p>
+          <div className="limitation-content-bio">
+            <h2 className="limitations-h2-bio">{tabs[selectedTab].title}</h2>
+            <p className="limitations-paragraph-bio">
+              {tabs[selectedTab].text}
+            </p>
           </div>
         </div>
       </div>
@@ -152,14 +150,13 @@ const LimitationsAndShortcomings = () => {
   );
 };
 
-// TODO: For small devices make the images stack on top of each other, then the text
 const HowbioEnergyWorks = () => {
   return (
-    <div className="callout-box">
-      <div className="callout-content">
-        <div className="text-content">
-          <h2 className="callout-title">How bio Energy Works</h2>
-          <p className="callout-text">
+    <div className="callout-box-bio">
+      <div className="callout-content-bio">
+        <div className="text-content-bio">
+          <h2 className="callout-title-bio">How bio Energy Works</h2>
+          <p className="callout-text-bio">
             bio energy is produced by capturing sunlight and converting it into
             electricity using photovoltaic cells. These cells are typically made
             of silicon and generate direct current (DC) electricity when exposed
@@ -168,15 +165,15 @@ const HowbioEnergyWorks = () => {
             businesses. bio panels can be installed on rooftops or in open areas
             where they can receive uninterrupted sunlight.{" "}
             <img
-              className="latex"
+              className="latex-bio"
               src="https://math.vercel.app/?from=2H_2+%2B+O_2+%5Clongrightarrow+2H_2O"
               alt="equation"
             />
           </p>
         </div>
-        <div className="image-content">
+        <div className="image-content-bio">
           <img
-            className="image-style"
+            className="image-style-bio"
             src="https://via.placeholder.com/500"
             alt="place holder"
           />

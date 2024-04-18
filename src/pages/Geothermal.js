@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./../styles/Geothermal.css";
 
-// TODO: ADD ANIMATIONS AND TEXT EFFECTS
-// TODO: CHANGAE IMAGES
 const WhatIsgeothermalEnergy = () => {
   return (
     <div className="what-is-geothermal-energy-container">
@@ -24,7 +22,7 @@ const WhatIsgeothermalEnergy = () => {
       </div>
       <div className="what-is-geothermal-energy-image">
         <img
-          src="https://raw.githubusercontent.com/vigneshsaravanakumar404/Chemistry-Olympics-Website-2/3852224f15ee2e6e93542caf1d28777b7a3a27a8/src/images/Geothermal-Energy.png?token=GHSAT0AAAAAACJ6T3ZHHE2OEQMZJTZ2JX7IZRAUVWA"
+          src="https://raw.githubusercontent.com/vigneshsaravanakumar404/Chemistry-Olympics-Website-2/7871f3d0970314b548ef9bb820327a94e8231d9b/src/images/Geothermal-Energy.png?token=GHSAT0AAAAAACJ6T3ZHNZZFKWBXGT5LYBZYZRAUZVQ"
           alt="geothermal Energy"
           style={{ marginBottom: "50px" }}
         />
@@ -74,7 +72,6 @@ const Benefits = () => {
   ];
 
   return (
-    // TODO: FIX IMAGES NOT CENTERED IN SMALL DEVICES
     <div className="benefits-section">
       <h2 className="benefits-h2">Benefits</h2>
       <p className="benefits-paragraph">
@@ -123,7 +120,6 @@ const LimitationsAndShortcomings = () => {
     // Add more limitations as needed
   ];
 
-  // TODO: FIX COLOR SCHEME
   return (
     <div className="container">
       <h1 className="limitations-h1">Limitations and Shortcomings</h1>
@@ -155,7 +151,6 @@ const LimitationsAndShortcomings = () => {
   );
 };
 
-// TODO: For small devices make the images stack on top of each other, then the text
 const HowgeothermalEnergyWorks = () => {
   return (
     <div className="callout-box">
@@ -193,6 +188,10 @@ const HowgeothermalEnergyWorks = () => {
 function Geothermal() {
   return (
     <div>
+      <br />
+      <br />
+      <br />
+      <br />
       <WhatIsgeothermalEnergy />
       <Benefits />
       <LimitationsAndShortcomings />

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./../styles/Solar.css";
 
-// TODO: ADD ANIMATIONS AND TEXT EFFECTS
-// TODO: CHANGAE IMAGES
 const WhatIsSolarEnergy = () => {
   return (
     <div className="what-is-solar-energy-container">
@@ -72,24 +70,25 @@ const Benefits = () => {
   ];
 
   return (
-    // TODO: FIX IMAGES NOT CENTERED IN SMALL DEVICES
-    <div className="benefits-section">
-      <h2 className="benefits-h2">Benefits</h2>
-      <p className="benefits-paragraph">
+    <div className="benefits-section-solar">
+      <h2 className="benefits-h2-solar">Benefits</h2>
+      <p className="benefits-paragraph-solar">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
         nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
         nunc nec.
       </p>
-      <div className="benefits-cards-container">
+      <div className="benefits-cards-container-solar">
         {benefitsData.map((benefit, index) => (
-          <div className="benefits-card" key={index}>
-            <div className="card-inner">
-              <div className="card-image">
+          <div className="benefits-card-solar" key={index}>
+            <div className="card-inner-solar">
+              <div className="card-image-solar">
                 <img src={benefit.image} alt={benefit.title} />
               </div>
-              <div className="card-content">
-                <h3 className="benefits-h3">{benefit.title}</h3>
-                <p className="benefits-paragraph">{benefit.description}</p>
+              <div className="card-content-solar">
+                <h3 className="benefits-h3-solar">{benefit.title}</h3>
+                <p className="benefits-paragraph-solar">
+                  {benefit.description}
+                </p>
               </div>
             </div>
           </div>
@@ -121,11 +120,10 @@ const LimitationsAndShortcomings = () => {
     // Add more limitations as needed
   ];
 
-  // TODO: FIX COLOR SCHEME
   return (
-    <div className="container">
-      <h1 className="limitations-h1">Limitations and Shortcomings</h1>
-      <div className="tabs">
+    <div className="container-solar">
+      <h1 className="limitations-h1-solar">Limitations and Shortcomings</h1>
+      <div className="tabs-solar">
         {tabs.map((tab, index) => (
           <div
             key={index}
@@ -136,15 +134,15 @@ const LimitationsAndShortcomings = () => {
           </div>
         ))}
       </div>
-      <div className="limitations-section">
-        <div className="limitation-card">
+      <div className="limitations-section-solar">
+        <div className="limitation-card-solar">
           <img
-            className="limitations-image"
+            className="limitations-image-solar"
             src={tabs[selectedTab].image}
             alt={tabs[selectedTab].title}
           />
-          <div className="limitation-content">
-            <h2 className="limitations-h2">{tabs[selectedTab].title}</h2>
+          <div className="limitation-content-solar">
+            <h2 className="limitations-h2-solar">{tabs[selectedTab].title}</h2>
             <p className="limitations-paragraph">{tabs[selectedTab].text}</p>
           </div>
         </div>
@@ -153,14 +151,13 @@ const LimitationsAndShortcomings = () => {
   );
 };
 
-// TODO: For small devices make the images stack on top of each other, then the text
 const HowSolarEnergyWorks = () => {
   return (
-    <div className="callout-box">
-      <div className="callout-content">
-        <div className="text-content">
-          <h2 className="callout-title">How Solar Energy Works</h2>
-          <p className="callout-text">
+    <div className="callout-box-solar">
+      <div className="callout-content-solar">
+        <div className="text-content-solar">
+          <h2 className="callout-title-solar">How Solar Energy Works</h2>
+          <p className="callout-text-solar">
             Solar energy is produced by capturing sunlight and converting it
             into electricity using photovoltaic cells. These cells are typically
             made of silicon and generate direct current (DC) electricity when
@@ -169,15 +166,15 @@ const HowSolarEnergyWorks = () => {
             homes and businesses. Solar panels can be installed on rooftops or
             in open areas where they can receive uninterrupted sunlight.{" "}
             <img
-              className="latex"
+              className="latex-solar"
               src="https://math.vercel.app/?from=2H_2+%2B+O_2+%5Clongrightarrow+2H_2O"
               alt="equation"
             />
           </p>
         </div>
-        <div className="image-content">
+        <div className="image-content-solar">
           <img
-            className="image-style"
+            className="image-style-solar"
             src="https://via.placeholder.com/500"
             alt="place holder"
           />
@@ -200,6 +197,5 @@ function Solar() {
 }
 
 export default Solar;
-
 
 // https://images.vexels.com/media/users/3/127036/isolated/preview/621fc58ce70a49cffa4cbb3ea0fc0379-abstract-oval-tree-icon.png
