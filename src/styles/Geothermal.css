@@ -1,28 +1,29 @@
-/* What is bio */
-.what-is-bio-energy-container {
+/* What is geothermal */
+.what-is-geothermal-energy-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.what-is-bio-energy-text {
+.what-is-geothermal-energy-text {
     flex: 2;
     text-align: center;
     padding: 10px;
 }
 
-.what-is-bio-energy-image {
+.what-is-geothermal-energy-image {
     flex: 1;
+
 }
 
-.what-is-bio-energy-image img {
+.what-is-geothermal-energy-image img {
     width: 100%;
     height: auto;
-    transform: rotate(10deg);
+    transform: rotate(0deg);
 }
 
-.what-is-bio-energy-h2 {
+.what-is-geothermal-energy-h2 {
     color: #98D829;
     padding: 10px;
     font-size: 5rem;
@@ -58,7 +59,7 @@
 .benefits-card {
     background-color: #333;
     border: 3px solid #58bf69;
-    /* bio energy yellow */
+    /* geothermal energy yellow */
     border-radius: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 25px;
@@ -193,7 +194,7 @@
 
 
 
-/* How bio Works */
+/* How geothermal Works */
 .callout-box {
     background-color: #116a4b;
     border-radius: 8px;
@@ -246,7 +247,7 @@
 
 /* Archive */
 /* .geo-hero-banner {
-    background-image: url('https://wallpapers.com/images/hd/bio-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
+    background-image: url('https://wallpapers.com/images/hd/geothermal-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -254,8 +255,8 @@
     padding: 100px 20px;
 }
 
-.bio-hero-banner {
-    background-image: url('./../images/BioHero.jpg');
+.geothermal-hero-banner {
+    background-image: url('./../images/geothermalHero.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;

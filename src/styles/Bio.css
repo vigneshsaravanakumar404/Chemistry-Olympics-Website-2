@@ -1,18 +1,3 @@
-/* Hero Stuff */
-.bio-hero-banner {
-    background-image: url('https://wallpapers.com/images/hd/bio-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    font-size: 2.25rem;
-}
-
-
-.hero-banner p {
-    font-size: 1.5rem;
-}
-
 /* What is bio */
 .what-is-bio-energy-container {
     display: flex;
