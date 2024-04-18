@@ -16,17 +16,15 @@ const WhatIsSolarEnergy = () => {
       <div className="what-is-solar-energy-text">
         <h2 className="what-is-solar-energy-h2">What is Solar Energy?</h2>
         <p className="what-is-solar-energy-paragraph">
-          Solar energy is radiant light and heat from the Sun that is harnessed
-          using a range of ever-evolving technologies such as solar heating,
-          photovoltaics, solar thermal energy, solar architecture, molten salt
-          power plants and artificial photosynthesis. Solar energy is radiant
-          light and heat from the Sun that is harnessed using a range of
-          ever-evolving technologies such as solar heating, photovoltaics, solar
-          thermal energy, solar architecture, molten salt power plants and
-          artificial photosynthesis.Solar energy is radiant light and heat from
-          the Sun that is harnessed using a range of ever-evolving technologies
-          such as solar heating, photovoltaics, solar thermal energy, solar
-          architecture, molten salt power plants and artificial photosynthesis.
+          Solar energy, as the name suggests, is energy derived from the Sun’s
+          radiation. Several living organisms such as plants and algae are
+          reliant on the Sun’s radiation for their energy. Solar energy for the
+          production of electricity, however, is much different from the process
+          that plants use to photosynthesize. Solar energy makes up 12% of the
+          energy produced through renewable means. Even calculators make use of
+          tiny solar panels to recharge their batteries. Solar energy is
+          projected to produce 45% of the total energy consumption by the year
+          2050.
         </p>
       </div>
       <div className="what-is-solar-energy-image">
@@ -40,65 +38,55 @@ const WhatIsSolarEnergy = () => {
   );
 };
 
-const LimitationsAndShortcomings = () => {
-  return (
-    <div className="limitations-section">
-      <h2 className="limitations-h2">Limitations and Shortcomings</h2>
-      <p className="limitations-paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
-        nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
-        nunc nec.
-      </p>
-      {/* Add more limitations/shortcomings here if needed */}
-    </div>
-  );
-};
-
 const Benefits = () => {
   const benefitsData = [
     {
-      title: "Lorem Ipsum",
+      title: "Renewable and Sustainable",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+        "Solar energy is both renewable and sustainable in the long term as it relies on the Sun. Solar energy will continue to hit the earth’s surface for several billion years, the entire lifetime of the Sun.",
       image: "https://via.placeholder.com/500",
     },
     {
-      title: "Lorem Ipsum",
+      title: "Cost Effective and Low Maintenance",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+        "Though there are initial installation costs, in the long term solar energy is both cost effective and low maintenance. With no moving or frequently worn out parts, solar energy can last, oftentimes, 30 - 35 years before having to be replaced.",
       image: "https://via.placeholder.com/500",
     },
     {
-      title: "Lorem Ipsum",
+      title: "Reduces Energy Costs",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+        "Currently most houses with solar panels installed sell energy back to the grid during the day as they produce a net positive amount of energy. They can then use this money to buy power from the grid during the day. This means even during the nighttime, solar energy produced during the day will reduce energy costs.",
       image: "https://via.placeholder.com/500",
     },
     {
-      title: "Lorem Ipsum",
+      title: "Viable Option in Remote Areas",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+        "Sometimes solar energy can be the only viable option in a certain location. In remote or rural areas, places without access to the central power grid, solar energy can be the only option.",
       image: "https://via.placeholder.com/500",
     },
     {
-      title: "Lorem Ipsum",
+      title: "Clean and Environmentally Friendly",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+        "Solar energy is also clean. It produces no harmful emissions of greenhouse gases.",
       image: "https://via.placeholder.com/500",
     },
     {
-      title: "Lorem Ipsum",
+      title: "Contributes to Renewable Energy Production",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+        "There are numerous benefits to solar energy and it is no surprise that it makes 19% of the total energy produced by renewable energy sources in the United States.",
       image: "https://via.placeholder.com/500",
     },
   ];
 
   return (
-    // TODO: CHANGE TO SCALE FROM 3 TO 1
     // TODO: FIX IMAGES NOT CENTERED IN SMALL DEVICES
     <div className="benefits-section">
       <h2 className="benefits-h2">Benefits</h2>
+      <p className="benefits-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
+        nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
+        nunc nec.
+      </p>
       <div className="benefits-cards-container">
         {benefitsData.map((benefit, index) => (
           <div className="benefits-card" key={index}>
@@ -118,12 +106,47 @@ const Benefits = () => {
   );
 };
 
+const LimitationsAndShortcomings = () => {
+  return (
+    <div className="limitations-section">
+      <h2 className="limitations-h2">Limitations and Shortcomings</h2>
+      <p className="limitations-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
+        nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
+        nunc nec.
+      </p>
+    </div>
+  );
+};
+
+const GrayContainer = ({ children }) => {
+  return <div className="gray-container">{children}</div>;
+};
+
+const HowSolarEnergyWorks = () => {
+  return (
+    <div className="callout-box">
+      <h2 className="callout-title">How Solar Energy Works</h2>
+      <p className="callout-text">
+        Solar energy is produced by capturing sunlight and converting it into
+        electricity using photovoltaic cells. These cells are typically made of
+        silicon and generate direct current (DC) electricity when exposed to
+        sunlight. This electricity is then converted into alternating current
+        (AC) by inverters, making it usable for powering homes and businesses.
+        Solar panels can be installed on rooftops or in open areas where they
+        can receive uninterrupted sunlight.
+      </p>
+    </div>
+  );
+};
+
 function Solar() {
   return (
     <div>
       <WhatIsSolarEnergy />
       <Benefits />
-      {/* <LimitationsAndShortcomings /> */}
+      <LimitationsAndShortcomings />
+      <HowSolarEnergyWorks />
     </div>
   );
 }

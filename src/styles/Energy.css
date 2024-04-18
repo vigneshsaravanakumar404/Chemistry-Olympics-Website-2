@@ -6,13 +6,11 @@
     color: #fff;
     text-align: center;
     font-size: 2.25rem;
-    padding: 100px 20px;
 }
 
 
 .hero-banner p {
     font-size: 1.5rem;
-    margin-top: 20px;
 }
 
 /* What is Solar */
@@ -24,20 +22,18 @@
 }
 
 .what-is-solar-energy-text {
-    flex: 1;
+    flex: 2;
     text-align: center;
     padding: 10px;
 }
 
 .what-is-solar-energy-image {
-    flex: 0.5;
-    padding: 10px;
+    flex: 1;
 }
 
 .what-is-solar-energy-image img {
     width: 100%;
     height: auto;
-    padding: 10px;
     transform: rotate(10deg);
 }
 
@@ -58,8 +54,12 @@
 
 .benefits-h2 {
     color: #618BAA;
-    padding: 10px;
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+.benefits-paragraph {
+    color: #ccc;
+    font-size: 1rem;
 }
 
 .benefits-cards-container {
@@ -74,11 +74,10 @@
     background-color: #333;
     border: 1px solid #ffdb4d;
     /* Solar energy yellow */
-    border-radius: 1px;
+    border-radius: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    flex: 1 1 calc(25% - 40px);
-    /* Initially, 3 cards per row */
+    padding: 25px;
+    flex: 1 1 calc(40% - 40px);
 }
 
 .card-inner {
@@ -137,6 +136,31 @@
 .limitations-section {
     padding: 20px;
 }
+
+
+/* How Solar Works */
+.callout-box {
+    background-color: #5b4924;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.callout-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FFC85E;
+}
+
+.callout-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+
 
 
 
