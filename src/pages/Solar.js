@@ -1,15 +1,7 @@
 import "./../styles/Energy.css";
-import { ReactTyped } from "react-typed";
 
 // TODO: ADD ANIMATIONS AND TEXT EFFECTS
-const HeroBanner = () => {
-  return (
-    <div className="solar-hero-banner">
-      <h1>Solar Energy</h1>
-    </div>
-  );
-};
-
+// TODO: CHANGAE IMAGES
 const WhatIsSolarEnergy = () => {
   return (
     <div className="what-is-solar-energy-container">
@@ -119,23 +111,36 @@ const LimitationsAndShortcomings = () => {
   );
 };
 
-const GrayContainer = ({ children }) => {
-  return <div className="gray-container">{children}</div>;
-};
-
+// TODO: For small devices make the images stack on top of each other, then the text
 const HowSolarEnergyWorks = () => {
   return (
     <div className="callout-box">
-      <h2 className="callout-title">How Solar Energy Works</h2>
-      <p className="callout-text">
-        Solar energy is produced by capturing sunlight and converting it into
-        electricity using photovoltaic cells. These cells are typically made of
-        silicon and generate direct current (DC) electricity when exposed to
-        sunlight. This electricity is then converted into alternating current
-        (AC) by inverters, making it usable for powering homes and businesses.
-        Solar panels can be installed on rooftops or in open areas where they
-        can receive uninterrupted sunlight.
-      </p>
+      <div className="callout-content">
+        <div className="text-content">
+          <h2 className="callout-title">How Solar Energy Works</h2>
+          <p className="callout-text">
+            Solar energy is produced by capturing sunlight and converting it
+            into electricity using photovoltaic cells. These cells are typically
+            made of silicon and generate direct current (DC) electricity when
+            exposed to sunlight. This electricity is then converted into
+            alternating current (AC) by inverters, making it usable for powering
+            homes and businesses. Solar panels can be installed on rooftops or
+            in open areas where they can receive uninterrupted sunlight.{" "}
+            <img
+              className="latex"
+              src="https://math.vercel.app/?from=2H_2+%2B+O_2+%5Clongrightarrow+2H_2O"
+              alt="equation"
+            />
+          </p>
+        </div>
+        <div className="image-content">
+          <img
+            className="image-style"
+            src="https://via.placeholder.com/500"
+            alt="place holder"
+          />
+        </div>
+      </div>
     </div>
   );
 };

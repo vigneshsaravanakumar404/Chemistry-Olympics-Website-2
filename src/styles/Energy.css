@@ -143,25 +143,49 @@
     background-color: #5b4924;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callout-content {
+    display: flex;
+}
+
+.text-content {
+    flex: 3;
+    /* 3/4 of the width */
+    padding-right: 20px;
+    /* Adjust spacing between text and image */
+}
+
+.image-content {
+    flex: 1;
+}
+
+.image-style {
+    width: 100%;
 }
 
 .callout-title {
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 10px;
     color: #FFC85E;
 }
 
 .callout-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
-    color: #fff;
+    color: #ffffff;
 }
 
-
+.latex {
+    filter: invert(100%);
+}
 
 
 /* Archive */
