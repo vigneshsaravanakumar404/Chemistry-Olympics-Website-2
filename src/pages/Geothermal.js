@@ -6,7 +6,7 @@ const WhatIsgeothermalEnergy = () => {
     <div className="what-is-geothermal-energy-container">
       <div className="what-is-geothermal-energy-text">
         <h2 className="what-is-geothermal-energy-h2">
-          What is geothermal Energy?
+          What is geothermal Energ
         </h2>
         <p className="what-is-geothermal-energy-paragraph">
           geothermal energy, as the name suggests, is energy derived from the
