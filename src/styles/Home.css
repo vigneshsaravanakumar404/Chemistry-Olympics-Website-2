@@ -265,6 +265,7 @@
   from {
     right: 0;
   }
+
   to {
     right: auto;
   }
@@ -274,6 +275,7 @@
   from {
     left: 0;
   }
+
   to {
     left: calc(50% - 25vw);
   }
@@ -284,6 +286,7 @@
     right: 25vw;
     transform: none;
   }
+
   to {
     right: 50vw;
     transform: scale(0.5);
@@ -295,6 +298,7 @@
     left: 25vw;
     transform: none;
   }
+
   to {
     left: 50vw;
     transform: scale(0.5);
@@ -305,6 +309,7 @@
   from {
     right: 0;
   }
+
   to {
     right: auto;
   }
@@ -314,6 +319,7 @@
   from {
     left: -30vw;
   }
+
   to {
     left: calc(50% - 35vw - 20px);
   }
