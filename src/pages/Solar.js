@@ -1,4 +1,5 @@
-import "./../styles/Energy.css";
+import React, { useState } from "react";
+import "./../styles/Solar.css";
 
 // TODO: ADD ANIMATIONS AND TEXT EFFECTS
 // TODO: CHANGAE IMAGES
@@ -99,14 +100,55 @@ const Benefits = () => {
 };
 
 const LimitationsAndShortcomings = () => {
+  const [selectedTab, setSelectedTab] = useState(0);
+
+  const tabs = [
+    {
+      title: "Limitation 1",
+      image: "https://via.placeholder.com/500",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+    },
+    {
+      title: "Limitation 2",
+      image: "https://via.placeholder.com/500",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+    },
+    {
+      title: "Limitation 3",
+      image: "https://via.placeholder.com/500",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+    },
+    // Add more limitations as needed
+  ];
+
+  // TODO: FIX COLOR SCHEME
   return (
-    <div className="limitations-section">
-      <h2 className="limitations-h2">Limitations and Shortcomings</h2>
-      <p className="limitations-paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
-        nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
-        nunc nec.
-      </p>
+    <div className="container">
+      <h1 className="limitations-h1">Limitations and Shortcomings</h1>
+      <div className="tabs">
+        {tabs.map((tab, index) => (
+          <div
+            key={index}
+            className={`tab ${selectedTab === index ? "active" : ""}`}
+            onClick={() => setSelectedTab(index)}
+          >
+            {tab.title}
+          </div>
+        ))}
+      </div>
+      <div className="limitations-section">
+        <div className="limitation-card">
+          <img
+            className="limitations-image"
+            src={tabs[selectedTab].image}
+            alt={tabs[selectedTab].title}
+          />
+          <div className="limitation-content">
+            <h2 className="limitations-h2">{tabs[selectedTab].title}</h2>
+            <p className="limitations-paragraph">{tabs[selectedTab].text}</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
@@ -151,9 +193,13 @@ function Solar() {
       <WhatIsSolarEnergy />
       <Benefits />
       <LimitationsAndShortcomings />
+      <br />
       <HowSolarEnergyWorks />
     </div>
   );
 }
 
 export default Solar;
+
+
+// https://images.vexels.com/media/users/3/127036/isolated/preview/621fc58ce70a49cffa4cbb3ea0fc0379-abstract-oval-tree-icon.png

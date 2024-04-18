@@ -1,44 +1,29 @@
-/* Hero Stuff */
-.solar-hero-banner {
-    background-image: url('https://wallpapers.com/images/hd/solar-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    font-size: 2.25rem;
-}
-
-
-.hero-banner p {
-    font-size: 1.5rem;
-}
-
-/* What is Solar */
-.what-is-solar-energy-container {
+/* What is bio */
+.what-is-bio-energy-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.what-is-solar-energy-text {
+.what-is-bio-energy-text {
     flex: 2;
     text-align: center;
     padding: 10px;
 }
 
-.what-is-solar-energy-image {
+.what-is-bio-energy-image {
     flex: 1;
 }
 
-.what-is-solar-energy-image img {
+.what-is-bio-energy-image img {
     width: 100%;
     height: auto;
     transform: rotate(10deg);
 }
 
-.what-is-solar-energy-h2 {
-    color: #F3D03E;
+.what-is-bio-energy-h2 {
+    color: #98D829;
     padding: 10px;
     font-size: 5rem;
 }
@@ -53,7 +38,7 @@
 }
 
 .benefits-h2 {
-    color: #618BAA;
+    color: #00D2FC;
     font-size: 3rem;
 }
 
@@ -72,8 +57,8 @@
 
 .benefits-card {
     background-color: #333;
-    border: 1px solid #ffdb4d;
-    /* Solar energy yellow */
+    border: 3px solid #58bf69;
+    /* bio energy yellow */
     border-radius: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 25px;
@@ -100,7 +85,8 @@
 }
 
 .benefits-h3 {
-    color: #ffdb4d;
+    color: #13d56e;
+    font-size: 1.75rem;
 }
 
 .benefits-paragraph {
@@ -133,14 +119,83 @@
 }
 
 /* Limitations and Short Comings */
-.limitations-section {
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #395b80;
+    color: #fff;
     padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #555;
+    /* Darker background for tabs */
+}
+
+.tab.active {
+    background-color: #FFE177;
+    color: #000000;
+}
+
+.limitations-section {
+    margin-top: 20px;
+}
+
+.limitation-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    /* Card background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+}
+
+.limitation-card .limitation-content {
+    flex: 1;
+}
+
+.limitation-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 20px;
+    /* Add some spacing between image and content */
+}
+
+.limitations-h2 {
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.limitations-paragraph {
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.limitations-image {
+    width: 18%;
+    height: auto;
 }
 
 
-/* How Solar Works */
+
+
+/* How bio Works */
 .callout-box {
-    background-color: #5b4924;
+    background-color: #116a4b;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -168,13 +223,14 @@
 }
 
 .image-style {
-    width: 100%;
+    width: 80%;
+    border-radius: 4px;
 }
 
 .callout-title {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #FFC85E;
+    color: #98D829;
 }
 
 .callout-text {
@@ -190,7 +246,7 @@
 
 /* Archive */
 /* .geo-hero-banner {
-    background-image: url('https://wallpapers.com/images/hd/solar-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
+    background-image: url('https://wallpapers.com/images/hd/bio-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
