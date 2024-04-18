@@ -1,4 +1,4 @@
-- Update content
+- UPDATE CONTENT
     - IMAGES
     - TITLES
     - DESCRIPTIONS
