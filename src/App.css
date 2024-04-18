@@ -8,7 +8,7 @@ body {
   background-color: black;
   background-image: url("./images/grid.svg");
   background-size: 25px;
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 
