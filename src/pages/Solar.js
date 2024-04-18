@@ -121,9 +121,9 @@ const LimitationsAndShortcomings = () => {
   ];
 
   return (
-    <div className="container-solar">
-      <h1 className="limitations-h1-solar">Limitations and Shortcomings</h1>
-      <div className="tabs-solar">
+    <div className="container-bio">
+      <h1 className="limitations-h1-bio">Limitations and Shortcomings</h1>
+      <div className="tabs-bio">
         {tabs.map((tab, index) => (
           <div
             key={index}
@@ -134,16 +134,18 @@ const LimitationsAndShortcomings = () => {
           </div>
         ))}
       </div>
-      <div className="limitations-section-solar">
-        <div className="limitation-card-solar">
+      <div className="limitations-section-bio">
+        <div className="limitation-card-bio">
           <img
-            className="limitations-image-solar"
+            className="limitations-image-bio"
             src={tabs[selectedTab].image}
             alt={tabs[selectedTab].title}
           />
-          <div className="limitation-content-solar">
-            <h2 className="limitations-h2-solar">{tabs[selectedTab].title}</h2>
-            <p className="limitations-paragraph">{tabs[selectedTab].text}</p>
+          <div className="limitation-content-bio">
+            <h2 className="limitations-h2-bio">{tabs[selectedTab].title}</h2>
+            <p className="limitations-paragraph-bio">
+              {tabs[selectedTab].text}
+            </p>
           </div>
         </div>
       </div>
