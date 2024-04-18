@@ -22,7 +22,7 @@ const WhatIsgeothermalEnergy = () => {
       </div>
       <div className="what-is-geothermal-energy-image">
         <img
-          src="https://raw.githubusercontent.com/vigneshsaravanakumar404/Chemistry-Olympics-Website-2/7871f3d0970314b548ef9bb820327a94e8231d9b/src/images/Geothermal-Energy.png?token=GHSAT0AAAAAACJ6T3ZHNZZFKWBXGT5LYBZYZRAUZVQ"
+          src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Geothermal-Energy.png"
           alt="geothermal Energy"
           style={{ marginBottom: "50px" }}
         />
