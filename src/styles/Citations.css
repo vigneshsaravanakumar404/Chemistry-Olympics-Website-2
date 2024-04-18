@@ -1,18 +1,46 @@
+/* Citations.css */
 #citations-header {
-  margin-top: 125px;
-  margin-bottom: 0;
-  font-size: 64px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 36px;
   text-align: center;
 }
 
-.citations-body {
-  margin-top: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
+.citations-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-@media (max-width: 768px) {
-  #citations-header {
-    font-size: 48px;
-  }
+.citation-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+.add-citation-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-citation-btn:hover {
+  background-color: #0056b3;
+}
+
+.citations-list {
+  margin-top: 20px;
+}
+
+.citation {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
 }
