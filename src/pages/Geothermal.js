@@ -155,14 +155,13 @@ const HowgeothermalEnergyWorks = () => {
             Geothermal energy harnesses Earth's natural heat to generate
             electricity, providing a constant and stable power source.
             Geothermal plants tap into underground reservoirs of hot fluid,
-            typically water, by drilling deep wells. As the fluid is extracted
-            at high temperatures, it releases steam or vapor, which drives
-            turbines to produce electricity. This process operates within a
-            closed-loop system, where the extracted fluid is then re-injected
-            underground, minimizing environmental impact. However, the
-            efficiency and potential of geothermal systems are influenced by
-            factors such as temperature and thermal flow rate. The addition of
-            chemical energy carriers (CECs), like{" "}
+            typically water, by drilling deep wells. As the fluid is at high
+            temperatures, it releases steam or vapor, which drives turbines to
+            produce electricity. This process operates within a closed-loop
+            system, where the extracted fluid is then re-injected underground.
+            This minimizes environmental impact. However, to increase
+            efficiency, geothermal plants use the addition of chemical energy
+            carriers (CECs), like{" "}
             <img
               className="latex"
               src="https://math.vercel.app/?from=CH_{3}OH"
@@ -174,10 +173,10 @@ const HowgeothermalEnergyWorks = () => {
               src="https://math.vercel.app/?from=NH_{3}"
               alt="equation"
             />{" "}
-            (ammonia), further optimize this process by enhancing heat transfer
-            and fluid circulation. For instance, methanol facilitates thermal
-            decomposition or steam reforming, capturing heat efficiently through
-            the reaction:{" "}
+            (ammonia). These chemicals optimize the energy extraction process by
+            enhancing heat transfer and fluid circulation. For instance,
+            methanol facilitates thermal decomposition or steam reforming,
+            capturing heat efficiently through the reaction:{" "}
             <img
               className="latex"
               src="https://math.vercel.app/?from=\ce{CH3OH + H2O + Heat <--> CO2 + 3H2}"
