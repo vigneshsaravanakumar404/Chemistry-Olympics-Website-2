@@ -38,25 +38,29 @@ const Benefits = () => {
       title: "Potential for Advancements",
       description:
         "Geothermal energy offers great potential for future advancements, including the possibility of supercritical geothermal systems that can significantly increase power density.",
-      image: "https://cdn-icons-png.freepik.com/256/2022/2022299.png?semt=ais_hybrid",
+      image:
+        "https://cdn-icons-png.freepik.com/256/2022/2022299.png?semt=ais_hybrid",
     },
     {
       title: "Available 24/7",
       description:
         "Geothermal energy is available 24 hours a day, not reliant on weather patterns or day/night cycles, providing a stable energy source with a high capacity factor.",
-      image: "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/8bc1c27cc69370779379b8af75475666cd05bb33/GeothermalSupport5.png",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/8bc1c27cc69370779379b8af75475666cd05bb33/GeothermalSupport5.png",
     },
     {
       title: "High Power Density Potential",
       description:
         "Supercritical geothermal systems have the potential to generate ten times more energy than conventional geothermal systems, making them highly efficient and promising for future energy needs.",
-      image: "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/3ce4c734d42d5a7df5182717a76951fbbc09e8f9/GeothermalSupport6.png",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/3ce4c734d42d5a7df5182717a76951fbbc09e8f9/GeothermalSupport6.png",
     },
     {
       title: "Versatile Industrial Applications",
       description:
         "Low-enthalpy geothermal energy can directly benefit various industries such as water desalination, greenhouses, fish farming, and large-scale chemical production, reducing operational costs and environmental impact.",
-      image: "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/4fd98a9f153efc825c6771688776c09883a26478/GeothermalSupport4.png",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/4fd98a9f153efc825c6771688776c09883a26478/GeothermalSupport4.png",
     },
   ];
 
@@ -148,25 +152,56 @@ const HowgeothermalEnergyWorks = () => {
         <div className="text-content">
           <h2 className="callout-title">How geothermal Energy Works</h2>
           <p className="callout-text">
-            geothermal energy is produced by capturing sunlight and converting
-            it into electricity using photovoltaic cells. These cells are
-            typically made of silicon and generate direct current (DC)
-            electricity when exposed to sunlight. This electricity is then
-            converted into alternating current (AC) by inverters, making it
-            usable for powering homes and businesses. geothermal panels can be
-            installed on rooftops or in open areas where they can receive
-            uninterrupted sunlight.{" "}
+            Geothermal energy harnesses Earth's natural heat to generate
+            electricity, providing a constant and stable power source.
+            Geothermal plants tap into underground reservoirs of hot fluid,
+            typically water, by drilling deep wells. As the fluid is extracted
+            at high temperatures, it releases steam or vapor, which drives
+            turbines to produce electricity. This process operates within a
+            closed-loop system, where the extracted fluid is then re-injected
+            underground, minimizing environmental impact. However, the
+            efficiency and potential of geothermal systems are influenced by
+            factors such as temperature and thermal flow rate. The addition of
+            chemical energy carriers (CECs), like{" "}
             <img
               className="latex"
-              src="https://math.https://github.com/vigneshsaravanakumar404/imagestorage/blob/4fd98a9f153efc825c6771688776c09883a26478/GeothermalSupport4.pngel.app/?from=2H_2+%2B+O_2+%5Clongrightarrow+2H_2O"
+              src="https://math.vercel.app/?from=CH_{3}OH"
               alt="equation"
-            />
+            />{" "}
+            (methanol) and{" "}
+            <img
+              className="latex"
+              src="https://math.vercel.app/?from=NH_{3}"
+              alt="equation"
+            />{" "}
+            (ammonia), further optimize this process by enhancing heat transfer
+            and fluid circulation. For instance, methanol facilitates thermal
+            decomposition or steam reforming, capturing heat efficiently through
+            the reaction:{" "}
+            <img
+              className="latex"
+              src="https://math.vercel.app/?from=\ce{CH3OH + H2O + Heat <--> CO2 + 3H2}"
+              alt="equation"
+            />{" "}
+            The standard heat of the reforming reaction is 130,331 kJ/kmol of
+            methanol. Additionally, both methanol and ammonia play crucial roles
+            in increasing fluid permeability within Enhanced Geothermal Systems
+            (EGS), where ammonia's thermal decomposition boasts a high energy
+            absorption capacity:{" "}
+            <img
+              className="latex"
+              src="https://math.vercel.app/?from=\ce{2NH3 + Heat <--> N2 + 3H2}"
+              alt="equation"
+            />{" "}
+            Where the Standard heat of reaction of 45,951 kJ/kmol of ammonia.{" "}
+            With the aid of these chemical reactions, clean and sustainable
+            energy can be extracted straight from the Earth's core.
           </p>
         </div>
         <div className="image-content">
           <img
             className="image-style"
-            src="https://via.placeholder.com/500"
+            src="https://guidetoiceland.imgix.net/738291/x/0/krafff.jpg?ixlib=php-3.3.0"
             alt="place holder"
           />
         </div>

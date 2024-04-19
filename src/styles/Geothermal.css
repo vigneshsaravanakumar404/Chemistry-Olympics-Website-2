@@ -208,7 +208,7 @@
 }
 
 .text-content {
-  flex: 3;
+  flex: 2;
   /* 3/4 of the width */
   padding-right: 20px;
   /* Adjust spacing between text and image */
@@ -216,10 +216,11 @@
 
 .image-content {
   flex: 1;
+  align-content: center;
 }
 
 .image-style {
-  width: 80%;
+  width: 100%;
   border-radius: 4px;
 }
 
