@@ -6,18 +6,19 @@ const WhatIsgeothermalEnergy = () => {
     <div className="what-is-geothermal-energy-container">
       <div className="what-is-geothermal-energy-text">
         <h2 className="what-is-geothermal-energy-h2">
-          What is geothermal Energ
+          What is Geothermal Energy
         </h2>
         <p className="what-is-geothermal-energy-paragraph">
-          geothermal energy, as the name suggests, is energy derived from the
-          Sun’s radiation. Several living organisms such as plants and algae are
-          reliant on the Sun’s radiation for their energy. geothermal energy for
-          the production of electricity, however, is much different from the
-          process that plants use to photosynthesize. geothermal energy makes up
-          12% of the energy produced through renewable means. Even calculators
-          make use of tiny geothermal panels to recharge their batteries.
-          geothermal energy is projected to produce 45% of the total energy
-          consumption by the year 2050.
+          Geothermal energy, a renewable, clean, and inexhaustible source,
+          harnesses Earth's interior heat, ensuring a constant and stable
+          supply. Naturally occurring in geysers, natural springs, and
+          volcanoes, it emerges in optimal locations. Geothermal plants operate
+          by extracting underground fluids at high temperatures, generating hot
+          steam to power turbines and produce electricity. Through a closed
+          system, the extracted fluid is converted back into water and returned
+          underground, emitting no pollutants into the atmosphere. The potential
+          of geothermal plants hinges on temperature and thermal flow rate,
+          essential factors determining their effectiveness.
         </p>
       </div>
       <div className="what-is-geothermal-energy-image">
@@ -34,40 +35,28 @@ const WhatIsgeothermalEnergy = () => {
 const Benefits = () => {
   const benefitsData = [
     {
-      title: "Renewable and Sustainable",
+      title: "Potential for Advancements",
       description:
-        "geothermal energy is both renewable and sustainable in the long term as it relies on the Sun. geothermal energy will continue to hit the earth’s surface for several billion years, the entire lifetime of the Sun.",
-      image: "https://via.placeholder.com/500",
+        "Geothermal energy offers great potential for future advancements, including the possibility of supercritical geothermal systems that can significantly increase power density.",
+      image: "https://cdn-icons-png.freepik.com/256/2022/2022299.png?semt=ais_hybrid",
     },
     {
-      title: "Cost Effective and Low Maintenance",
+      title: "Available 24/7",
       description:
-        "Though there are initial installation costs, in the long term geothermal energy is both cost effective and low maintenance. With no moving or frequently worn out parts, geothermal energy can last, oftentimes, 30 - 35 years before having to be replaced.",
-      image: "https://via.placeholder.com/500",
+        "Geothermal energy is available 24 hours a day, not reliant on weather patterns or day/night cycles, providing a stable energy source with a high capacity factor.",
+      image: "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/8bc1c27cc69370779379b8af75475666cd05bb33/GeothermalSupport5.png",
     },
     {
-      title: "Reduces Energy Costs",
+      title: "High Power Density Potential",
       description:
-        "Currently most houses with geothermal panels installed sell energy back to the grid during the day as they produce a net positive amount of energy. They can then use this money to buy power from the grid during the day. This means even during the nighttime, geothermal energy produced during the day will reduce energy costs.",
-      image: "https://via.placeholder.com/500",
+        "Supercritical geothermal systems have the potential to generate ten times more energy than conventional geothermal systems, making them highly efficient and promising for future energy needs.",
+      image: "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/3ce4c734d42d5a7df5182717a76951fbbc09e8f9/GeothermalSupport6.png",
     },
     {
-      title: "Viable Option in Remote Areas",
+      title: "Versatile Industrial Applications",
       description:
-        "Sometimes geothermal energy can be the only viable option in a certain location. In remote or rural areas, places without access to the central power grid, geothermal energy can be the only option.",
-      image: "https://via.placeholder.com/500",
-    },
-    {
-      title: "Clean and Environmentally Friendly",
-      description:
-        "geothermal energy is also clean. It produces no harmful emissions of greenhouse gases.",
-      image: "https://via.placeholder.com/500",
-    },
-    {
-      title: "Contributes to Renewable Energy Production",
-      description:
-        "There are numerous benefits to geothermal energy and it is no surprise that it makes 19% of the total energy produced by renewable energy sources in the United States.",
-      image: "https://via.placeholder.com/500",
+        "Low-enthalpy geothermal energy can directly benefit various industries such as water desalination, greenhouses, fish farming, and large-scale chemical production, reducing operational costs and environmental impact.",
+      image: "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/4fd98a9f153efc825c6771688776c09883a26478/GeothermalSupport4.png",
     },
   ];
 
@@ -75,9 +64,8 @@ const Benefits = () => {
     <div className="benefits-section">
       <h2 className="benefits-h2">Benefits</h2>
       <p className="benefits-paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
-        nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
-        nunc nec.
+        Geothermal energy offers some of the most promising benifits for the
+        future of renewable energy production
       </p>
       <div className="benefits-cards-container">
         {benefitsData.map((benefit, index) => (
@@ -103,21 +91,23 @@ const LimitationsAndShortcomings = () => {
 
   const tabs = [
     {
-      title: "Limitation 1",
-      image: "https://via.placeholder.com/500",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+      title: "Environmental Disruption",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/ebc59379e0d260a8614ec7b09adcd98205de4b33/GeothermalSupport2.png",
+      text: "Drilling for geothermal plants, while relatively small in area, can disrupt surrounding habitats and wildlife. Additionally, the development of fumaroles, emitting volcanic gases and vapors, is a potential consequence, further impacting the environment. The fluid used in geothermal plants contains a range of harmful chemicals, including hydrogen sulfide, arsenic, mercury, and lead. These toxins can seep into nearby areas, posing risks to plants and wildlife.",
     },
     {
-      title: "Limitation 2",
-      image: "https://via.placeholder.com/500",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+      title: "Location Limitations",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/6a67d016c17987f0a3d463633844621ecd8933a2/GeoSupportImage1.png",
+      text: "Geothermal energy is location-dependent, with optimal sites often situated in remote areas such as Western states in the US and Hawaii. This necessitates the construction of extensive power lines to transport electricity to urban centers, increasing costs and potential energy loss during transmission.",
     },
     {
-      title: "Limitation 3",
-      image: "https://via.placeholder.com/500",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+      title: "Induced Seismic Activity",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/979e04986cfc3af4129e0047fe9d137eefc2dc4f/GeoghermalSupportImage3.png",
+      text: "Induced seismic activity is a significant concern associated with geothermal power production, especially with the development of enhanced geothermal systems (EGS). This phenomenon, observed globally, can lead to economic consequences and public concern, as observed in various locations including Indonesia, the Philippines, Japan, North and South America, and New Zealand.",
     },
-    // Add more limitations as needed
   ];
 
   return (
@@ -168,7 +158,7 @@ const HowgeothermalEnergyWorks = () => {
             uninterrupted sunlight.{" "}
             <img
               className="latex"
-              src="https://math.vercel.app/?from=2H_2+%2B+O_2+%5Clongrightarrow+2H_2O"
+              src="https://math.https://github.com/vigneshsaravanakumar404/imagestorage/blob/4fd98a9f153efc825c6771688776c09883a26478/GeothermalSupport4.pngel.app/?from=2H_2+%2B+O_2+%5Clongrightarrow+2H_2O"
               alt="equation"
             />
           </p>
@@ -202,5 +192,3 @@ function Geothermal() {
 }
 
 export default Geothermal;
-
-// https://cdn-icons-png.flaticon.com/512/3212/3212590.png

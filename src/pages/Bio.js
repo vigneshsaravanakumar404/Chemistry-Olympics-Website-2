@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+
 import "./../styles/Bio.css";
 
 const WhatIsBioEnergy = () => {
   return (
     <div className="what-is-bio-energy-container">
       <div className="what-is-bio-energy-text">
-        <h2 className="what-is-bio-energy-h2">What is bio Energy?</h2>
+        <h2 className="what-is-bio-energy-h2">What is Bio Energy?</h2>
         <p className="what-is-bio-energy-paragraph">
           bio energy, as the name suggests, is energy derived from the Sun’s
           radiation. Several living organisms such as plants and algae are
@@ -18,9 +19,8 @@ const WhatIsBioEnergy = () => {
         </p>
       </div>
       <div className="what-is-bio-energy-image">
-        {/* Replace 'image-url.jpg' with the URL of your large image */}
         <img
-          src="https://cdn-icons-png.freepik.com/512/8044/8044650.png"
+          src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/ec1d54c9c99d52f9e14b9dfb65569697bc08e9b6/Bio-Energy.png"
           alt="bio Energy"
         />
       </div>

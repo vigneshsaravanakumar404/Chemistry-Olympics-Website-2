@@ -21,7 +21,7 @@ const WhatIsSolarEnergy = () => {
       <div className="what-is-solar-energy-image">
         {/* Replace 'image-url.jpg' with the URL of your large image */}
         <img
-          src="https://cdn-icons-png.flaticon.com/512/3558/3558016.png"
+          src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/ec1d54c9c99d52f9e14b9dfb65569697bc08e9b6/Solar-Energy.png"
           alt="Solar Energy"
         />
       </div>
@@ -199,5 +199,3 @@ function Solar() {
 }
 
 export default Solar;
-
-// https://images.vexels.com/media/users/3/127036/isolated/preview/621fc58ce70a49cffa4cbb3ea0fc0379-abstract-oval-tree-icon.png
