@@ -67,11 +67,9 @@
 
 .home-graph {
   width: 80%;
-  aspect-ratio: 1.75;
   margin-left: 10%;
   margin-top: 20px;
-  background-color: pink;
-  opacity: 0.25;
+  border-radius: 12px;
 }
 
 .home-list {

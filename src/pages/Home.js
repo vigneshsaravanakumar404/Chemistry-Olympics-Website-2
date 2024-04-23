@@ -142,7 +142,11 @@ function Home() {
         </h1>
         <h2 class="home-subheader">Energy Consumption per Source</h2>
         <div class="home-content-card">
-          <div class="home-graph" />
+          <img
+            class="home-graph"
+            alt="Main Graph"
+            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/image2.png"
+          />
           <ul class="home-list">
             <li class="home-text">
               <span class="home-bullet">
@@ -171,7 +175,11 @@ function Home() {
         </div>
         <h2 class="home-subheader">Energy Consumption per US Citizen</h2>
         <div class="home-content-card">
-          <div class="home-graph" />
+          <img
+            class="home-graph"
+            alt="Main Graph"
+            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/image1.png"
+          />
           <ul class="home-list">
             <li class="home-text">
               <span class="home-bullet">
@@ -206,7 +214,7 @@ function Home() {
           Explore the Energy Breakdown in the USA by State at our Interactive
           Map!
         </p>
-        <div id="home-map-image" />
+        <br />
         <Link to="/map" id="home-map-button">
           VISIT
         </Link>
