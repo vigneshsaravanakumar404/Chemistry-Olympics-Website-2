@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./../styles/Solar.css";
-import { parabola } from "three/examples/jsm/nodes/Nodes.js";
 
 const WhatIsSolarEnergy = () => {
   return (
@@ -212,7 +211,7 @@ const HowSolarEnergyWorks = () => {
               <p>{explanation.paragraph}</p>
               <img
                 src={explanation.image}
-                alt={`Image ${index + 1}`}
+                alt="Solar Energy Works"
                 style={{ width: "50%" }}
               />
             </div>

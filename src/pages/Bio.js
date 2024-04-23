@@ -196,5 +196,3 @@ function Bio() {
 }
 
 export default Bio;
-
-// https://cdn-icons-png.flaticon.com/512/3212/3212590.png
