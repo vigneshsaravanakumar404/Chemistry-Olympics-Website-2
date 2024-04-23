@@ -238,6 +238,25 @@
   filter: invert(100%);
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  /* Adjust the gap between images as needed */
+}
+
+.image-content-solar {
+  width: 100%;
+}
+
+.image-style-solar {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  /* Ensure images don't exceed their container */
+}
+
+
 /* Archive */
 /* .geo-hero-banner {
     background-image: url('https://wallpapers.com/images/hd/bio-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');

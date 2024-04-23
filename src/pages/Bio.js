@@ -148,65 +148,46 @@ const LimitationsAndShortcomings = () => {
 };
 
 const HowbioEnergyWorks = () => {
+  const paragraph =
+    "Current normal technologies are used for liquid biofuels on a large scale. Sugar and starch-based ethanol and oil-crop-based biodiesel, are examples. The manufacturing of first-generation bioethanol is a well-established process that has seen widespread adoption, especially in the United States and Brazil. It can be prepared from any organic raw material and can be transformed to other forms of sugar such as starch or inulin. Scientists are now focusing their efforts on second-generation biofuels production as the first-generation biofuels are involved with food-crop conflicts Advanced second-generation biofuels are produced from biomass that is not food-based, such as the husks, leaves, and stem that remain after crop production is harvested. Nonetheless, it is commonly known that expensive and advanced technology are needed to extract second-generation biofuels. Furthermore, a number of obstacles, such as the need for expensive enzymes, prevent the commercialization of second-generation biofuels. Because of this, researchers focused mostly on the third generation of biofuels, which used microalgae and microorganisms to make liquid biofuels like biodiesel. The breakdown of biomass into aromatics and simple sugars for further conversion into bioproducts is an enticing use of bioenergy crops. For instance, bioenergy crops can be genetically modified to increase biomass production and increase resilience.";
+
   return (
     <div className="callout-box-bio">
       <div className="callout-content-bio">
         <div className="text-content-bio">
           <h2 className="callout-title-bio">How bio Energy Works</h2>
           <p className="callout-text-bio">
-            <div className="image-content-solar">
-              <img
-                className="image-style-solar"
-                src="https://via.placeholder.com/500"
-                alt="place holder"
-                //src/images/Screenshot 2024-04-23 at 10.27.16 AM.png
-              />
-            </div>
-            <div className="image-content-solar">
-              <img
-                className="image-style-solar"
-                src="https://via.placeholder.com/500"
-                alt="place holder"
-                //src/images/Screenshot 2024-04-23 at 10.29.13 AM.png
-              />
-            </div>
-            Current normal technologies are used for liquid biofuels on a large
-            scale. Sugar and starch-based ethanol and oil-crop-based biodiesel,
-            are examples. The manufacturing of first-generation bioethanol is a
-            well-established process that has seen widespread adoption,
-            especially in the United States and Brazil. It can be prepared from
-            any organic raw material and can be transformed to other forms of
-            sugar such as starch or inulin. Scientists are now focusing their
-            efforts on second-generation biofuels production as the
-            first-generation biofuels are involved with food-crop conflicts
-            Advanced second-generation biofuels are produced from biomass that
-            is not food-based, such as the husks, leaves, and stem that remain
-            after crop production is harvested. Nonetheless, it is commonly
-            known that expensive and advanced technology are needed to extract
-            second-generation biofuels. Furthermore, a number of obstacles, such
-            as the need for expensive enzymes, prevent the commercialization of
-            second-generation biofuels. Because of this, researchers focused
-            mostly on the third generation of biofuels, which used microalgae
-            and microorganisms to make liquid biofuels like biodiesel. The
-            breakdown of biomass into aromatics and simple sugars for further
-            conversion into bioproducts is an enticing use of bioenergy crops.
-            For instance, bioenergy crops can be genetically modified to
-            increase biomass production and increase resilience.
-            <div className="image-content-solar">
-              <img
-                className="image-style-solar"
-                src="https://via.placeholder.com/500"
-                alt="place holder"
-                //src/images/Screenshot 2024-04-23 at 10.35.12 AM.png
-              />
-            </div>
-            <div className="image-content-solar">
-              <img
-                className="image-style-solar"
-                src="https://via.placeholder.com/500"
-                alt="place holder"
-                //src/images/Screenshot 2024-04-23 at 10.35.29 AM.png
-              />
+            <p>{paragraph}</p>
+            <div className="image-grid">
+              <div className="image-content-solar">
+                <img
+                  className="image-style-solar"
+                  src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%2010.27.16%E2%80%AFAM.png"
+                  alt="place holder"
+                />
+              </div>
+              <div className="image-content-solar">
+                <img
+                  className="image-style-solar"
+                  src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%2010.29.13%E2%80%AFAM.png"
+                  alt="place holder"
+                />
+              </div>
+              <div className="image-content-solar">
+                <img
+                  className="image-style-solar"
+                  src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%2010.35.12%E2%80%AFAM.png"
+                  alt="place holder"
+                />
+              </div>
+              <div className="image-content-solar">
+                <img
+                  className="image-style-solar"
+                  src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%2010.35.29%E2%80%AFAM.png"
+                  alt="place holder"
+                />
+              </div>
+              {/* Add more images here */}
             </div>
           </p>
         </div>
