@@ -229,7 +229,7 @@
 
 .explanation img {
   flex: 1;
-  max-width: 25%;
+  max-width: 50%;
   /* Force the images to take up 1/4 of the horizontal space */
   align-self: flex-end;
   /* Right-align the images */
