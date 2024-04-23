@@ -16,6 +16,17 @@ const WhatIsBioEnergy = () => {
           energy produced through renewable means. Even calculators make use of
           tiny bio panels to recharge their batteries. bio energy is projected
           to produce 45% of the total energy consumption by the year 2050.
+
+          Biofuels are one of the most extensively used sources of renewable energy due to the year-round availability of raw material, i.e., biomass, that attributes towards large-scale utilization with a low carbon impact. Huge future potential.
+
+          Bioenergy refers to secondary energy derived from biomass, which
+          can be bioethanol, biogas, biodiesel, biohydrogen, electricity generation, or biomass briquettes fuel
+
+          Biomass is now recognized as the most promising renewable energy
+          source due to its carbon-based structural composition that can be turned
+          directly into liquid fuel, attributing towards the world’s long-term energy supply
+
+
         </p>
       </div>
       <div className="what-is-bio-energy-image">
@@ -31,41 +42,27 @@ const WhatIsBioEnergy = () => {
 const Benefits = () => {
   const benefitsData = [
     {
-      title: "Renewable and Sustainable",
+      title: "Renewable",
       description:
-        "bio energy is both renewable and sustainable in the long term as it relies on the Sun. bio energy will continue to hit the earth’s surface for several billion years, the entire lifetime of the Sun.",
+        "Organic matter is all around us, whether it be decomposing animals or trees or landfills. Since biomass resources get their energy from the sun, they are quickly able to replenish, unlike fossil fuels, which take millions of years.",
       image: "https://via.placeholder.com/500",
+      //src/images/Biomass Resources.png
     },
     {
-      title: "Cost Effective and Low Maintenance",
+      title: "Reduces waste, in addition to carbon emissions",
       description:
-        "Though there are initial installation costs, in the long term bio energy is both cost effective and low maintenance. With no moving or frequently worn out parts, bio energy can last, oftentimes, 30 - 35 years before having to be replaced.",
+        "Landfills negatively impact the environment, whether by contaminating air and water or emitting gases. The use of bioenergy can help reduce the amount of waste that ends up in landfills, and alleviate some of those issues.",
       image: "https://via.placeholder.com/500",
+      //src/images/1.png
     },
     {
-      title: "Reduces Energy Costs",
+      title: "Reliable and Consistent",
       description:
-        "Currently most houses with bio panels installed sell energy back to the grid during the day as they produce a net positive amount of energy. They can then use this money to buy power from the grid during the day. This means even during the nighttime, bio energy produced during the day will reduce energy costs.",
+        "Biomass energy can be easily turned on and off. It doesn't rely of nature after you have collected the organic matter, unlike solar or hydropower. But, some biomass sources would be seasonal.",
       image: "https://via.placeholder.com/500",
+      //src/images/Resource_classification_of_biomass_energy_600x600.webp
     },
-    {
-      title: "Viable Option in Remote Areas",
-      description:
-        "Sometimes bio energy can be the only viable option in a certain location. In remote or rural areas, places without access to the central power grid, bio energy can be the only option.",
-      image: "https://via.placeholder.com/500",
-    },
-    {
-      title: "Clean and Environmentally Friendly",
-      description:
-        "bio energy is also clean. It produces no harmful emissions of greenhouse gases.",
-      image: "https://via.placeholder.com/500",
-    },
-    {
-      title: "Contributes to Renewable Energy Production",
-      description:
-        "There are numerous benefits to bio energy and it is no surprise that it makes 19% of the total energy produced by renewable energy sources in the United States.",
-      image: "https://via.placeholder.com/500",
-    },
+    
   ];
 
   return (
@@ -100,21 +97,23 @@ const LimitationsAndShortcomings = () => {
 
   const tabs = [
     {
-      title: "Limitation 1",
+      title: "Cost",
       image: "https://via.placeholder.com/500",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+      text: "There is cost to store, transport, and extract energy from biomass. This is in addition to upfront costs of running a biomass plant",
+      //src/images/download (5).jpeg
     },
     {
-      title: "Limitation 2",
+      title: "Space requirements",
       image: "https://via.placeholder.com/500",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+      text: "Biomass plants require space for the plants, in addition to space for plants to be grown and harvested.",
+      //src/images/download (6).jpeg
     },
     {
-      title: "Limitation 3",
+      title: "Environmental impact",
       image: "https://via.placeholder.com/500",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc nunc nec.",
+      text: "While bioenergy provides a clean source of energy, the generation process could lead to deforestation. Harvesting minerals and bioenergy resources could ruin the soil's health. Furthermore, it takes lots of water to keep biomass energy plants running, such as growing crops.",
     },
-    // Add more limitations as needed
+    //src/images/the-environmental-impact-of-agriculture-during-the-covid-19-pandemic-and-sdg-2022-01-17-032757.jpg
   ];
 
   return (
@@ -157,27 +156,71 @@ const HowbioEnergyWorks = () => {
         <div className="text-content-bio">
           <h2 className="callout-title-bio">How bio Energy Works</h2>
           <p className="callout-text-bio">
-            bio energy is produced by capturing sunlight and converting it into
-            electricity using photovoltaic cells. These cells are typically made
-            of silicon and generate direct current (DC) electricity when exposed
-            to sunlight. This electricity is then converted into alternating
-            current (AC) by inverters, making it usable for powering homes and
-            businesses. bio panels can be installed on rooftops or in open areas
-            where they can receive uninterrupted sunlight.{" "}
-            <img
-              className="latex-bio"
-              src="https://math.vercel.app/?from=2H_2+%2B+O_2+%5Clongrightarrow+2H_2O"
-              alt="equation"
-            />
-          </p>
-        </div>
-        <div className="image-content-bio">
+
+          <div className="image-content-solar">
           <img
-            className="image-style-bio"
+            className="image-style-solar"
             src="https://via.placeholder.com/500"
             alt="place holder"
+           //src/images/Screenshot 2024-04-23 at 10.27.16 AM.png
           />
         </div>
+
+        <div className="image-content-solar">
+          <img
+            className="image-style-solar"
+            src="https://via.placeholder.com/500"
+            alt="place holder"
+            //src/images/Screenshot 2024-04-23 at 10.29.13 AM.png
+          />
+        </div>
+
+       Current normal technologies are used for liquid biofuels on
+a large scale. Sugar and starch-based ethanol and oil-crop-based
+biodiesel, are examples. The
+manufacturing of first-generation bioethanol is a well-established process that has seen widespread adoption, especially in the United States
+and Brazil. It can be prepared from any organic raw material and can be transformed to other forms of sugar
+such as starch or inulin. Scientists are now focusing their efforts on second-generation biofuels production as the first-generation biofuels
+are involved with food-crop conflicts
+
+
+Advanced second-generation biofuels are produced from biomass that is not food-based, such as the husks, leaves, and stem that remain after crop production is harvested.
+
+Nonetheless, it is commonly known that expensive and advanced technology are needed to extract second-generation biofuels. Furthermore, a number of obstacles, such as the need for expensive enzymes, prevent the commercialization of second-generation biofuels. 
+
+Because of this, researchers focused mostly on the third generation of biofuels, which used microalgae and microorganisms to make liquid biofuels like biodiesel.
+
+
+The breakdown of biomass into aromatics and simple sugars for further conversion into bioproducts is an enticing use of bioenergy crops.
+
+For instance, bioenergy crops can be genetically modified to increase biomass production and increase resilience.
+
+
+<div className="image-content-solar">
+          <img
+            className="image-style-solar"
+            src="https://via.placeholder.com/500"
+            alt="place holder"
+            //src/images/Screenshot 2024-04-23 at 10.35.12 AM.png
+          />
+        </div>
+
+
+
+        <div className="image-content-solar">
+          <img
+            className="image-style-solar"
+            src="https://via.placeholder.com/500"
+            alt="place holder"
+            //src/images/Screenshot 2024-04-23 at 10.35.29 AM.png
+          />
+        </div>
+
+            
+          
+          </p>
+        </div>
+
       </div>
     </div>
   );
