@@ -206,8 +206,7 @@
 }
 
 .text-content-solar {
-  flex: 3;
-  /* 3/4 of the width */
+  flex: 5;
   padding-right: 20px;
   /* Adjust spacing between text and image */
 }
@@ -236,6 +235,12 @@
 .latex-solar {
   filter: invert(100%);
 }
+
+.img-solar {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Archive */
 /* .geo-hero-banner {
