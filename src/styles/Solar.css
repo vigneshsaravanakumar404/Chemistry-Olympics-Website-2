@@ -79,7 +79,6 @@
 .card-content-solar {
   flex: 1;
   padding-left: 20px;
-  /* Add padding to separate image and content */
 }
 
 .benefits-h3-solar {
@@ -93,25 +92,20 @@
 @media (max-width: 768px) {
   .benefits-card-solar {
     flex-basis: calc(50% - 40px);
-    /* 2 cards per row on smaller screens */
   }
 }
 
 @media (max-width: 480px) {
   .benefits-card-solar {
     flex-basis: calc(100% - 40px);
-    /* 1 card per row on mobile screens */
   }
 
-  /* Specific styles for one card per row */
   .benefits-card-solar {
     flex-direction: column;
-    /* Stack content vertically */
   }
 
   .card-content-solar {
     padding-top: 20px;
-    /* Add padding to separate image and content */
   }
 }
 
@@ -137,7 +131,6 @@
   margin-right: 10px;
   border-radius: 5px;
   background-color: #555;
-  /* Darker background for tabs */
 }
 
 .tab.active-solar {
@@ -153,11 +146,9 @@
   display: flex;
   flex-direction: row;
   background-color: #000000;
-  /* Card background color */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Shadow effect */
 }
 
 .limitation-card-solar {
@@ -169,7 +160,6 @@
   height: auto;
   border-radius: 5px;
   margin-left: 20px;
-  /* Add some spacing between image and content */
 }
 
 .limitations-h2-solar {
@@ -203,60 +193,44 @@
 
 .callout-content-solar {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Left-align text */
 }
 
-.text-content-solar {
-  flex: 5;
-  padding-right: 20px;
-  /* Adjust spacing between text and image */
-}
-
-.image-content-solar {
-  flex: 1;
-}
-
-.image-style-solar {
-  width: 80%;
-  border-radius: 4px;
+.callout-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .callout-title-solar {
   font-size: 36px;
   margin-bottom: 10px;
   color: #ffc85e;
+  align-self: center;
 }
 
-.callout-text-solar {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #ffffff;
+.explanation {
+  display: flex;
+  flex: 1;
+  margin-bottom: 20px;
+  /* Add space between each image-paragraph combination */
 }
 
-.latex-solar {
-  filter: invert(100%);
+.explanation p {
+  flex: 5;
+  margin-right: 20px;
+  /* Adjust as needed */
+  text-align: left;
+  /* Left-align the text */
 }
 
-.img-solar {
-  width: 100%;
-  height: auto;
+.explanation img {
+  flex: 1;
+  max-width: 25%;
+  /* Force the images to take up 1/4 of the horizontal space */
+  align-self: flex-end;
+  /* Right-align the images */
 }
-
-
-/* Archive */
-/* .geo-hero-banner {
-    background-image: url('https://wallpapers.com/images/hd/solar-panels-with-clouds-reflection-x5v5fupz5yk9owxc.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.bio-hero-banner {
-    background-image: url('./../images/BioHero.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
-} */

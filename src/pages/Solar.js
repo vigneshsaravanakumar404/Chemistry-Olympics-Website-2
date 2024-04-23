@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./../styles/Solar.css";
+import { parabola } from "three/examples/jsm/nodes/Nodes.js";
 
 const WhatIsSolarEnergy = () => {
   return (
@@ -150,123 +151,72 @@ const LimitationsAndShortcomings = () => {
 };
 
 const HowSolarEnergyWorks = () => {
+  const explanations = [
+    {
+      paragraph:
+        "Typical photovoltaic cells already in notes. A solar cell converts energy in the photons of sunlight into electricity by means of the photoelectric phenomenon found in certain types of semiconductor materials such as silicon and selenium. Efficiency of solar cells depends on temperature, insolation, spectral characteristics of sunlight and so on. Solar power can be converted directly into electrical power byphotovoltaic (PV) cells and photoelectrochemical cells. Utilizes p-n junctions",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/92692cdce5676c7f2ae0d4dc53733d8914af13c7/Screenshot%202024-04-23%20at%208.04.21%E2%80%AFAM.png",
+    },
+    {
+      paragraph:
+        "The main difference from photosynthetic systems issimply that the redox potential energy of the charge-separatedstate is not stored in products of subsequent reactions, butrather it is directly used to produce a photocurrent. We try to replicate natural photosynthesis.",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.07.18%E2%80%AFAM.png",
+    },
+    {
+      paragraph:
+        "Photosynthesis in human’s hands can yield fruit of unimaginable power.",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.08.09%E2%80%AFAM.png",
+    },
+    {
+      paragraph:
+        "ATP synthase finally utilizes the H+ gradient to generate ATP.",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.09.20%E2%80%AFAM.png",
+    },
+    {
+      paragraph:
+        "This reaction occurs at photosystem II. Now, we consider artificial photosynthesis. We would want an antenna for light harvesting, reaction center for charge separation, catalysts between charged states and substrates, and a membrane to provide physical separation of the products. While some promising results, we don’t have a final finished product. We explain efforts towards coupling artificial antennas and Reaction-Center Building Blocks.",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.10.13%E2%80%AFAM.png",
+    },
+    {
+      paragraph:
+        "Although the conversion of light into chemical energy by means of artificial systems seems to be a somewhat distant goal, a hybrid natural–artificial system capable of using light to obtain proton-motive force and then ATP synthesis has been constructed There are also efforts for conversion of light into mechanical work via molecular machines. Molecular rotary motor:",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.13.03%E2%80%AFAM.png",
+    },
+    {
+      paragraph:
+        "This was used to prototype a light-powered nanocar on an atomically flat surface. Molecular shuttles have been designed, but so far these cannot develop net mechanical work. Thus, chemists can play akey role in improving thermal and electrical conversion tech-nologies by finding new materials and new processes. How it is used in industry?",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.14.02%E2%80%AFAM.png",
+    },
+    {
+      paragraph:
+        "Typical industrial energy system: 4 main parts are power supply, production plant, energy recovery, and cooling system. Typically,the systems use solar collectors and concentrators to gather solar radiation, store it and use for heating air or water in domestic, commercial or industrial plants Solar as an input power is widely used for heat engines in many industrial applications. Stirling engines use any kind of external heat source for their operation. They are highly reliable, simple in design and construction, easy to operate and cost effective Example: Solar thermal is also used in textile industry for heating water at temperatures close to 100 ◦C for bleaching, dyeing and washing purposes",
+      image:
+        "https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.14.58%E2%80%AFAM.png",
+    },
+  ];
+
   return (
-    <div className="callout-box-solar">
-      <div className="callout-content-solar">
-        <div className="text-content-solar">
-          <h2 className="callout-title-solar">How Solar Energy Works</h2>
-          <p className="callout-text-solar">
-            Typical photovoltaic cells already in notes. A solar cell converts
-            energy in the photons of sunlight into electricity by means of the
-            photoelectric phenomenon found in certain types of semiconductor
-            materials such as silicon and selenium. Efficiency of solar cells
-            depends on temperature, insolation, spectral characteristics of
-            sunlight and so on. Solar power can be converted directly into
-            electrical power byphotovoltaic (PV) cells and photoelectrochemical
-            cells. Utilizes p-n junctions
-            <br />
-            <br />
-            The main difference from photosynthetic systems issimply that the
-            redox potential energy of the charge-separatedstate is not stored in
-            products of subsequent reactions, butrather it is directly used to
-            produce a photocurrent. We try to replicate natural photosynthesis.{" "}
-            <br />
-            <br />
-            Photosynthesis in human’s hands can yield fruit of unimaginable
-            power.
-            <br />
-            <br />
-            ATP synthase finally utilizes the H+ gradient to generate ATP.
-            <br />
-            <br />
-            This reaction occurs at photosystem II. Now, we consider artificial
-            photosynthesis. We would want an antenna for light harvesting,
-            reaction center for charge separation, catalysts between charged
-            states and substrates, and a membrane to provide physical separation
-            of the products. While some promising results, we don’t have a final
-            finished product. We explain efforts towards coupling artificial
-            antennas and Reaction-Center Building Blocks.
-            <br />
-            <br />
-            Although the conversion of light into chemical energy by means of
-            artificial systems seems to be a somewhat distant goal, a hybrid
-            natural–artificial system capable of using light to obtain
-            proton-motive force and then ATP synthesis has been constructed
-            There are also efforts for conversion of light into mechanical work
-            via molecular machines. Molecular rotary motor:
-            <br />
-            <br />
-            This was used to prototype a light-powered nanocar on an atomically
-            flat surface. Molecular shuttles have been designed, but so far
-            these cannot develop net mechanical work. Thus, chemists can play
-            akey role in improving thermal and electrical conversion
-            tech-nologies by finding new materials and new processes. How it is
-            used in industry?
-            <br />
-            <br />
-            Typical industrial energy system: 4 main parts are power supply,
-            production plant, energy recovery, and cooling system. Typically,the
-            systems use solar collectors and concentrators to gather solar
-            radiation, store it and use for heating air or water in domestic,
-            commercial or industrial plants Solar as an input power is widely
-            used for heat engines in many industrial applications. Stirling
-            engines use any kind of external heat source for their operation.
-            They are highly reliable, simple in design and construction, easy to
-            operate and cost effective Example: Solar thermal is also used in
-            textile industry for heating water at temperatures close to 100 ◦C
-            for bleaching, dyeing and washing purposes
-            <br />
-            <br />
-          </p>
-        </div>
-        <div className="image-content-solar">
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/92692cdce5676c7f2ae0d4dc53733d8914af13c7/Screenshot%202024-04-23%20at%208.04.21%E2%80%AFAM.png"
-            alt="equation"
-          />
-          <br />
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.07.18%E2%80%AFAM.png"
-            alt="place holder"
-          />
-          <br />
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.08.09%E2%80%AFAM.png"
-            alt="place holder"
-          />
-          <br />
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.09.20%E2%80%AFAM.png"
-            alt="place holder"
-          />
-          <br />
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.10.13%E2%80%AFAM.png"
-            alt="place holder"
-          />
-          <br />
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.13.03%E2%80%AFAM.png"
-            alt="place holder"
-          />
-          <br />
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.14.02%E2%80%AFAM.png"
-            alt="place holder"
-          />
-          <br />
-          <img
-            className="img-solar"
-            src="https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/main/Screenshot%202024-04-23%20at%208.14.58%E2%80%AFAM.png"
-            alt="place holder"
-          />
+    <div className="callout-heading-container">
+      <h2 className="callout-title-solar">How Solar Energy Works</h2>
+      <div className="callout-box-solar">
+        <div className="callout-content-solar">
+          {explanations.map((explanation, index) => (
+            <div key={index} className="explanation">
+              <p>{explanation.paragraph}</p>
+              <img
+                src={explanation.image}
+                alt={`Image ${index + 1}`}
+                style={{ width: "50%" }}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
