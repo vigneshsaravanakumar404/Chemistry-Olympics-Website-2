@@ -254,8 +254,8 @@ function Layout() {
       <Outlet />
       <div id="layout-footer-divider" />
       <p class="layout-footer">
-        Designed and Developed by Tejas Raghuram, and Vignesh
-        Saravanakumar, Ishaan Sinha
+        Designed and Developed by Tejas Raghuram, and Vignesh Saravanakumar,
+        Ishaan Sinha
       </p>
       <p class="layout-footer">South Brunswick High School Team A, 2024</p>
     </div>
