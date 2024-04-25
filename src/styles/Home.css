@@ -67,11 +67,9 @@
 
 .home-graph {
   width: 80%;
-  aspect-ratio: 1.75;
   margin-left: 10%;
   margin-top: 20px;
-  background-color: pink;
-  opacity: 0.25;
+  border-radius: 12px;
 }
 
 .home-list {
@@ -250,7 +248,7 @@
   .home-carousel-card-center-right {
     animation-name: carousel-animation-center-right-mobile;
   }
-  
+
   .home-carousel-card-center-left {
     animation-name: carousel-animation-center-left-mobile;
   }
@@ -265,6 +263,7 @@
   from {
     right: 0;
   }
+
   to {
     right: auto;
   }
@@ -274,6 +273,7 @@
   from {
     left: 0;
   }
+
   to {
     left: calc(50% - 25vw);
   }
@@ -284,6 +284,7 @@
     right: 25vw;
     transform: none;
   }
+
   to {
     right: 50vw;
     transform: scale(0.5);
@@ -295,6 +296,7 @@
     left: 25vw;
     transform: none;
   }
+
   to {
     left: 50vw;
     transform: scale(0.5);
@@ -305,6 +307,7 @@
   from {
     right: 0;
   }
+
   to {
     right: auto;
   }
@@ -314,6 +317,7 @@
   from {
     left: -30vw;
   }
+
   to {
     left: calc(50% - 35vw - 20px);
   }
