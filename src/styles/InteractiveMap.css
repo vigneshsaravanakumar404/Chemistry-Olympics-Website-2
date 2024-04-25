@@ -1,0 +1,40 @@
+#map-buttons {
+    margin-left: calc(50% - 200px);
+}
+
+.map-button {
+    width: 120px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 80px;
+    padding-top: 15px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.25s;
+}
+
+.map-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.map-selected {
+    width: 120px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 80px;
+    padding-top: 15px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    transition: 0.25s;
+}

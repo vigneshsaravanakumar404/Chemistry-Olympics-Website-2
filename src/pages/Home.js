@@ -57,7 +57,7 @@ function EnergyCard(props) {
 }
 
 function Home() {
-  const [card, setCard] = useState(2);
+  const [card, setCard] = useState(5);
   const [scrollDirection, setScrollDirection] = useState('');
 
   const cards = [
