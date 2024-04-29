@@ -2,6 +2,7 @@ import { ReactTyped } from "react-typed";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Spline from "@splinetool/react-spline";
+import Map from './../images/map.gif';
 import "./../styles/Home.css";
 
 function EnergyCard(props) {
@@ -36,7 +37,7 @@ function EnergyCard(props) {
       }}
     >
       <p class="home-carousel-card-title">{props.title}</p>
-      <div class="home-carousel-card-image" />
+      <img class="home-carousel-card-image" src={props.image} alt='' />
       <p class="home-carousel-card-header">Description:</p>
       <p class="home-carousel-card-text">{props.description}</p>
       <p class="home-carousel-card-header">
@@ -64,7 +65,7 @@ function Home() {
       setCard={setCard}
       scrollDirection={scrollDirection}
       setScrollDirection={setScrollDirection}
-      // https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/b1f17e04e8b270a89cebf126be2e47c2776b8856/pexels-pixabay-371900.jpg
+      image='https://raw.githubusercontent.com/vigneshsaravanakumar404/imagestorage/b1f17e04e8b270a89cebf126be2e47c2776b8856/pexels-pixabay-371900.jpg'
     />,
     <EnergyCard
       current={card}
@@ -76,7 +77,7 @@ function Home() {
       setCard={setCard}
       scrollDirection={scrollDirection}
       setScrollDirection={setScrollDirection}
-      // https://news.mit.edu/sites/default/files/images/202212/MIT-Windy-Impact-01.jpg
+      image='https://news.mit.edu/sites/default/files/images/202212/MIT-Windy-Impact-01.jpg'
     />,
     <EnergyCard
       current={card}
@@ -88,7 +89,7 @@ function Home() {
       setCard={setCard}
       scrollDirection={scrollDirection}
       setScrollDirection={setScrollDirection}
-      // https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2022/04/Untitled-design-2022-04-11T122006.758.jpg
+      image='https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2022/04/Untitled-design-2022-04-11T122006.758.jpg'
     />,
     <EnergyCard
       current={card}
@@ -100,7 +101,7 @@ function Home() {
       setCard={setCard}
       scrollDirection={scrollDirection}
       setScrollDirection={setScrollDirection}
-      // https://think.ing.com/uploads/hero/_w800h450/170521-image-bio_energy_with_caption.jpg
+      image='https://think.ing.com/uploads/hero/_w800h450/170521-image-bio_energy_with_caption.jpg'
     />,
     <EnergyCard
       current={card}
@@ -112,7 +113,7 @@ function Home() {
       setCard={setCard}
       scrollDirection={scrollDirection}
       setScrollDirection={setScrollDirection}
-      // https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/NesjavellirPowerPlant_edit2.jpg/1200px-NesjavellirPowerPlant_edit2.jpg
+      image='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/NesjavellirPowerPlant_edit2.jpg/1200px-NesjavellirPowerPlant_edit2.jpg'
     />,
     <EnergyCard
       current={card}
@@ -124,7 +125,7 @@ function Home() {
       setCard={setCard}
       scrollDirection={scrollDirection}
       setScrollDirection={setScrollDirection}
-      // https://t3.ftcdn.net/jpg/04/36/53/74/360_F_436537490_m7hFC2c16GhIDpGXEa2uImjtwYeg1Qnd.jpg
+      image='https://t3.ftcdn.net/jpg/04/36/53/74/360_F_436537490_m7hFC2c16GhIDpGXEa2uImjtwYeg1Qnd.jpg'
     />,
   ];
 
@@ -220,7 +221,7 @@ function Home() {
           Explore the Energy Breakdown in the USA by State at our Interactive
           Map!
         </p>
-        <br />
+        <img src={Map} alt='' id='home-map-image' />
         <Link to="/map" id="home-map-button">
           VISIT
         </Link>

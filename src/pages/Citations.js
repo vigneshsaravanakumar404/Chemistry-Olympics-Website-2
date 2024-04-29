@@ -24,6 +24,8 @@ const hardcodedCitations = [
   'Lin, Chien-Yuan, and Aymerick Eudes. "Strategies for the production of biochemicals in bioenergy crops." Biotechnology for biofuels 13 (2020): 1-25.',
   'Ludt, Billy. "East-West Solar Projects Maximize the Number of Panels on an Array." Solar Power World, 16 Dec. 2021, www.solarpowerworldonline.com/2021/12/east-west-solar-projects-maximize-the-number-of-solar-panels-on-an-array/.',
   'Orts, William J., Kevin M. Holtman, and James N. Seiber. "Agricultural chemistry and bioenergy." Journal of Agricultural and Food Chemistry 56.11 (2008): 3892-3899.',
+  '“United States - SEDS - U.S. Energy Information Administration (EIA).” Www.eia.gov, www.eia.gov/state/seds/seds-data-complete.php.',
+  '“United States - SEDS - U.S. Energy Information Administration (EIA).” Www.eia.gov, www.eia.gov/state/seds/seds-data-complete.php.'
 ];
 
 function Citations() {
@@ -34,9 +36,9 @@ function Citations() {
       <h1 id="citations-header">Works Cited</h1>
       <div className="citations-container">
         {hardcodedCitations.map((citation, index) => (
-          <div key={index} className="citation">
+          <p key={index} className="citation">
             {citation}
-          </div>
+          </p>
         ))}
       </div>
       <br />

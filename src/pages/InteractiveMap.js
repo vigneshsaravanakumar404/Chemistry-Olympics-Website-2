@@ -7,6 +7,24 @@ function InteractiveMap() {
   const [source, setSource] = useState('solar');
   const [hoverInfo, setHoverInfo] = useState(null);
 
+  var zoom = 0;
+  if(window.innerWidth <= 450)
+  {
+    zoom = 2;
+  }
+  else if(window.innerWidth <= 1000)
+  {
+    zoom = 2.5;
+  }
+  else if(window.innerWidth <= 1600)
+  {
+    zoom = 3.5;
+  }
+  else if(window.innerWidth > 1600)
+  {
+    zoom = 4;
+  }
+
   const dataLayer = {
     "solar": {
       id: 'data',
@@ -15,15 +33,15 @@ function InteractiveMap() {
         'fill-color': {
           property: 'SOLAR',
           stops: [
-            [0, 'rgb(80, 40, 0)'],
-            [1, 'rgb(100, 60, 0)'],
-            [2, 'rgb(120, 80, 0)'],
-            [3, 'rgb(140, 100, 0)'],
-            [4, 'rgb(160, 120, 0)'],
-            [5, 'rgb(180, 140, 0)'],
-            [6, 'rgb(200, 160, 0)'],
-            [7, 'rgb(220, 180, 0)'],
-            [8, 'rgb(240, 200, 0)']
+            [0, 'rgb(90, 20, 0)'],
+            [1, 'rgb(110, 20, 0)'],
+            [2, 'rgb(130, 30, 0)'],
+            [3, 'rgb(150, 30, 0)'],
+            [4, 'rgb(170, 40, 0)'],
+            [5, 'rgb(190, 40, 0)'],
+            [6, 'rgb(210, 50, 0)'],
+            [7, 'rgb(230, 50, 0)'],
+            [8, 'rgb(250, 60, 0)']
           ]
         },
         'fill-opacity': 0.3
@@ -114,8 +132,8 @@ function InteractiveMap() {
       <Map
         initialViewState={{
           latitude: 38,
-          longitude: -100,
-          zoom: 3.5
+          longitude: -96,
+          zoom: zoom
         }}
         mapStyle="mapbox://styles/mapbox/dark-v9"
         mapboxAccessToken='pk.eyJ1IjoidGVqYXNyYWdodXJhbSIsImEiOiJjbHZjamI0ZWowanUyMmlvMDhwcDNpeXc0In0.q7ussQtQ_GNv67kJpqKK7w'
@@ -137,7 +155,7 @@ function InteractiveMap() {
       </Map>
       { hoverInfo && 
         <div style={{
-          width: 275,
+          width: 300,
           position: 'absolute',
           left: hoverInfo.x,
           top: hoverInfo.y,
