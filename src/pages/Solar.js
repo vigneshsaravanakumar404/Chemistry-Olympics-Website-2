@@ -67,9 +67,6 @@ const Benefits = () => {
     <div className="benefits-section-solar">
       <h2 className="benefits-h2-solar">Benefits</h2>
       <p className="benefits-paragraph-solar">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
-        nisl ac ultrices ultricies, nunc nunc tincidunt nunc, nec tincidunt nunc
-        nunc nec.
       </p>
       <div className="benefits-cards-container-solar">
         {benefitsData.map((benefit, index) => (
