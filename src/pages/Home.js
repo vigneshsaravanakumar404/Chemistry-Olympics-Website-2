@@ -73,7 +73,7 @@ function Home() {
       title="WIND ENERGY"
       description="Wind energy is a form of energy that captures the kinetic energy in the motion of air molecules. Wind turbines are used to convert this energy into electricity. Wind originates from the uneven heating of the Earth's surface by the sun, making wind energy also a form of solar energy."
       percent="3.24%"
-      cost="8.10¢/KWh"
+      cost="4.10¢/KWh"
       setCard={setCard}
       scrollDirection={scrollDirection}
       setScrollDirection={setScrollDirection}
