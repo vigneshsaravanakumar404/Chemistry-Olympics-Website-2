@@ -6,15 +6,13 @@ const WhatIsBioEnergy = () => {
   return (
     <div className="what-is-bio-energy-container">
       <div className="what-is-bio-energy-text">
-        <h2 className="what-is-bio-energy-h2">What is Bio Energy?</h2>
+        <h2 className="what-is-bio-energy-h2">What is Bioenergy?</h2>
         <p className="what-is-bio-energy-paragraph">
-          Bio energy, as the name suggests, is energy derived from the Sun’s
-          radiation. Several living organisms such as plants and algae are
-          reliant on the Sun’s radiation for their energy. bio energy for the
+          Bioenergy for the
           production of electricity, however, is much different from the process
-          that plants use to photosynthesize. bio energy makes up 12% of the
+          that plants use to photosynthesize. Bioenergy makes up 12% of the
           energy produced through renewable means. Even calculators make use of
-          tiny bio panels to recharge their batteries. bio energy is projected
+          tiny bio panels to recharge their batteries. Bioenergy is projected
           to produce 45% of the total energy consumption by the year 2050.
           Biofuels are one of the most extensively used sources of renewable
           energy due to the year-round availability of raw material, i.e.,
